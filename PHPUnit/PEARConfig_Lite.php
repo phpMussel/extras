@@ -9,8 +9,9 @@ $config->read('phpmussel.ini');
 // get value from config file
 echo $config->get('general', 'cleanup'); 
 
-// set value in config file to 1
-$config->set('general', 'cleanup',1); 
+// set value in config file to false
+$config->set('general', 'cleanup',false);
+$config->set('general', 'disable_cli',true); 
 
 // get current value (not yet saved to the config file)
 echo $config->get('general', 'cleanup'); 
