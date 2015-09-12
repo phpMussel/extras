@@ -7,14 +7,16 @@ $config = new Config_Lite();
 $config->read('phpmussel.ini');
 
 // get value from config file
-echo $config->get('general', 'cleanup'); 
+echo $config->get('general', 'cleanup');
+echo $config->get('general', 'disable_cli');
 
 // set value in config file to false
 $config->set('general', 'cleanup',false);
 $config->set('general', 'disable_cli',true); 
 
 // get current value (not yet saved to the config file)
-echo $config->get('general', 'cleanup'); 
+echo $config->get('general', 'cleanup');
+echo $config->get('general', 'disable_cli');
 
 // save new value to config file
 $config->save();
