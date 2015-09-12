@@ -15,8 +15,8 @@ echo ($cleanup->getContent());
 echo ($disable_cli->getContent());
 
 // set value in config file to false
-$cleanup->setContent(false);
-$disable_cli->setContent(true);
+$cleanup->setContent("false");
+$disable_cli->setContent("true");
 
 // get current value (not yet saved to the config file)
 echo ($cleanup->getContent());
