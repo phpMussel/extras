@@ -11,8 +11,8 @@ echo $config->get('general', 'cleanup');
 echo $config->get('general', 'disable_cli');
 
 // set value in config file to false
-$config->set('general', 'cleanup',false);
-$config->set('general', 'disable_cli',true); 
+$config->set('general', 'cleanup',"false");
+$config->set('general', 'disable_cli',"true"); 
 
 // get current value (not yet saved to the config file)
 echo $config->get('general', 'cleanup');
