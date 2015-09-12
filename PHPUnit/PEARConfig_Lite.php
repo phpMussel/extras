@@ -11,8 +11,8 @@ var_dump($config->getBool('general', 'cleanup'));
 var_dump($config->getBool('general', 'disable_cli'));
 
 // set value in config file to false
-$config->set('general', 'cleanup',"false");
-$config->set('general', 'disable_cli',"true"); 
+$config->set('general', 'cleanup',false);
+$config->set('general', 'disable_cli',true); 
 
 // get current value (not yet saved to the config file)
 var_dump($config->getBool('general', 'cleanup'));
