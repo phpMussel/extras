@@ -23,7 +23,7 @@
 
   WARNING: For your safety, if you decode quarantined files, I'd usually
   recommend only using this function inside some other encoding function, such
-  as base64_encode() or hex2bin(); If a quarantined file is malicious and
+  as base64_encode() or bin2hex(); If a quarantined file is malicious and
   decoded into an unsecured environment, it could potentially execute under
   some circumstances and cause harm to your system.
 
