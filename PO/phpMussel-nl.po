@@ -1,0 +1,549 @@
+# phpMussel language data
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.nl.inc
+# POT (template) source: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-en-SOURCE.pot
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-nl.po
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Project-Id-Version: phpMussel v0.9.0\n"
+
+# "bad_command"
+#, fuzzy
+msgid "I don't understand that command, sorry."
+msgstr "Ik begrijp niet dat bevel, sorry."
+
+# "cli_commands"
+# This is a list of commands supplied to the user by the program. Only change command descriptions! Don't change command aliases/names!
+#, fuzzy
+msgid " q\n - Quit CLI.\n - Aliases: quit, exit.\n md5_file\n - Generate MD5 signatures from files [Syntax: md5_file filename].\n - Alias: m.\n md5\n - Generate MD5 signature from string [Syntax: md5 string].\n hex_encode\n - Convert binary string to hexadecimal [Syntax: hex_encode string].\n - Alias: x.\n hex_decode\n - Convert hexadecimal to binary string [Syntax: hex_decode string].\n base64_encode\n - Convert binary string to base64 string [Syntax: base64_encode string].\n - Alias: b.\n base64_decode\n - Convert base64 string to binary string [Syntax: base64_decode string].\n scan\n - Scan file or directory [Syntax: scan filename].\n - Alias: s.\n update\n - Update phpMussel.\n - Alias: u.\n c\n - Print this command list.\n"
+msgstr " q\n - Verlaten CLI.\n - Aliassen: quit, exit.\n md5_file\n - Genereer MD5 handtekeningen van bestanden [Syntaxis: md5_file bestandsnaam].\n - Alias: m.\n md5\n - Genereer MD5 handtekening van string [Syntaxis: md5 string].\n hex_encode\n - Converteren van binaire string naar hexadecimaal [Syntaxis: hex_encode string].\n - Alias: x.\n hex_decode\n - Converteren van hexadecimaal naar binaire string [Syntaxis: hex_decode string].\n base64_encode\n - Converteren van binaire string naar base64 string [Syntaxis: base64_encode string].\n - Alias: b.\n base64_decode\n - Converteren van base64 string naar binaire string [Syntaxis: base64_decode string].\n scan\n - Scannen bestand of map [Syntaxis: scan bestandsnaam].\n - Alias: s.\n update\n - Update phpMussel.\n - Alias: u.\n c\n - Print dit commando lijst.\n"
+
+# "cli_failed_to_complete"
+#, fuzzy
+msgid "Failed to complete scanning process"
+msgstr "Mislukt om het voltooien te scannen"
+
+# "cli_is_not_a"
+# Rendered as "%FILENAME% is not a file or directory."
+#, fuzzy
+msgid " is not a file or directory."
+msgstr " is geen bestand of map."
+
+# "cli_ln2"
+#, fuzzy
+msgid " Thank you for using phpMussel, a PHP script designed to detect trojans,\n viruses, malware and other threats within files uploaded to your system\n wherever the script is hooked, based on the signatures of ClamAV and others.\n\n PHPMUSSEL COPYRIGHT 2013 and beyond GNU/GPLv2 by Caleb M (Maikuolan).\n\n                                     ~ ~ ~\n\n"
+msgstr " Dank u voor het gebruiken van phpMussel, een PHP-script ontwikkeld om trojans,\n virussen, malware en andere bedreigingen te ontworpen, binnen bestanden\n geüpload naar uw systeem waar het script is haakte, gebaseerd op de\n handtekeningen van ClamAV en anderen.\n PHPMUSSEL COPYRIGHT 2013 en verder GNU/GPL V.2 van Caleb M (Maikuolan).\n\n                                     ~ ~ ~\n\n"
+
+# "cli_ln3"
+#, fuzzy
+msgid " Currently running phpMussel in CLI mode (command line interface).\n\n To scan a file or directory, type 'scan', followed by the name of the file or\n directory that you want phpMussel to scan and press Enter; Type 'c' and press\n Enter for a list of CLI mode commands; Type 'q' and press Enter to quit:"
+msgstr " Momenteel phpMussel is in CLI-modus (commandlijn interface).\n\n Om scannen een bestand of map, typ 'scan', gevolgd door de naam van het\n bestand of de map die u wilt phpMussel te scannen en druk op Enter; Typ 'c' en\n druk op Enter voor een lijst op CLI-modus commando's; Typ 'q' en druk op Enter\n om te stoppen:"
+
+# "cli_pe1"
+#, fuzzy
+msgid "Not a valid PE file!"
+msgstr "Geen geldig PE-bestand!"
+
+# "cli_pe2"
+#, fuzzy
+msgid "PE Sections:"
+msgstr "PE Secties:"
+
+# "cli_update_restart"
+#, fuzzy
+msgid " Restarting phpMussel may be required before updates become apparent."
+msgstr " Herstarten phpMussel kan nodig zijn voordat updates zichtbaar worden."
+
+# "cli_working"
+#, fuzzy
+msgid "In progress"
+msgstr "Aan de gang"
+
+# "controls_lockout"
+#, fuzzy
+msgid "phpMussel controls lockout enabled."
+msgstr "phpMussel controles-slot ingeschakeld."
+
+# "core_scriptfile_missing"
+#, fuzzy
+msgid "Core script file missing! Please reinstall phpMussel."
+msgstr "Kern script ontbreekt! Opnieuw installeer phpMussel."
+
+# "corrupted"
+#, fuzzy
+msgid "Detected corrupted PE"
+msgstr "Gedetecteerd beschadigd PE"
+
+# "denied"
+#, fuzzy
+msgid "Upload Denied!"
+msgstr "Upload Geweigerd!"
+
+# "denied_reason"
+#, fuzzy
+msgid "Your upload was blocked for the reasons listed below"
+msgstr "De upload poging werd geblokkeerd voor de hieronder vermelde redenen"
+
+# "detected"
+# Don't remove "{vn}"; Just translate "Detected". This string is used by the program to report to the user when something is detected. For example, if the program detects a virus named "V1rus123", {vn} will be populated by the name and the program will return (using the string) a message like "Detected V1rus123!"
+#, fuzzy
+msgid "Detected {vn}"
+msgstr "Gedetecteerd {vn}"
+
+# "detected_control_characters"
+#, fuzzy
+msgid "Detected control characters"
+msgstr "Gedetecteerd controle karakters"
+
+# "encrypted_archive"
+#, fuzzy
+msgid "Detected encrypted archive; Encrypted archives not permitted"
+msgstr "Gedetecteerd gecodeerde archief; Gecodeerde archieven niet toegestaan"
+
+# "failed_to_access"
+# Rendered as "Failed to access %FILENAME%"
+#, fuzzy
+msgid "Failed to access "
+msgstr "Mislukt om toegang "
+
+# "file"
+#, fuzzy
+msgid "File"
+msgstr "Bestand"
+
+# "filesize_limit_exceeded"
+#, fuzzy
+msgid "Filesize limit exceeded"
+msgstr "Bestandsgrootte limiet overschreden"
+
+# "filetype_blacklisted"
+#, fuzzy
+msgid "Filetype blacklisted"
+msgstr "Bestandstype in zwarte lijst"
+
+# "finished"
+#, fuzzy
+msgid "Finished"
+msgstr "Afgewerkt"
+
+# "generated_by"
+# Rendered as "Generated by %PROGRAM-NAME%"
+#, fuzzy
+msgid "Generated by"
+msgstr "Gegenereerde door"
+
+# "greylist_cleared"
+#, fuzzy
+msgid " Greylist cleared."
+msgstr " Greylist geleegd."
+
+# "greylist_not_updated"
+#, fuzzy
+msgid " Greylist not updated."
+msgstr " Greylist niet bijgewerkt."
+
+# "greylist_updated"
+#, fuzzy
+msgid " Greylist updated."
+msgstr " Greylist bijgewerkt."
+
+# "image"
+#, fuzzy
+msgid "Image"
+msgstr "Image"
+
+# "instance_already_active"
+#, fuzzy
+msgid "Instance already active! Please double-check your hooks."
+msgstr "Instantie al actief! Controleer uw haken."
+
+# "invalid_file"
+#, fuzzy
+msgid "Invalid file"
+msgstr "Ongeldige bestand"
+
+# "invalid_url"
+#, fuzzy
+msgid "Invalid URL!"
+msgstr "Ongeldige URL!"
+
+# "ok"
+msgid "OK"
+msgstr "OK"
+
+# "only_allow_images"
+#, fuzzy
+msgid "Uploading files other than images isn't permitted"
+msgstr "Uploaden van niet-beeldbestanden is niet toegestaan"
+
+# "phpmussel_disabled"
+#, fuzzy
+msgid "phpMussel disabled."
+msgstr "phpMussel uitgeschakeld."
+
+# "phpmussel_disabled_already"
+#, fuzzy
+msgid "phpMussel already disabled."
+msgstr "phpMussel al uitgeschakeld."
+
+# "phpmussel_enabled"
+#, fuzzy
+msgid "phpMussel enabled."
+msgstr "phpMussel ingeschakeld."
+
+# "phpmussel_enabled_already"
+#, fuzzy
+msgid "phpMussel already enabled."
+msgstr "phpMussel al ingeschakeld."
+
+# "plugins_directory_nonexistent"
+#, fuzzy
+msgid "Plugins directory doesn't exist!"
+msgstr "Plugins bestandsmap bestaat niet!"
+
+# "recursive"
+#, fuzzy
+msgid "Recursion depth limit exceeded"
+msgstr "Recursie dieptelimiet overschreden"
+
+# "required_variables_not_defined"
+#, fuzzy
+msgid "Required variables aren't defined: Can't continue."
+msgstr "Vereiste variabelen zijn niet gedefinieerd: Kan niet doorgaan."
+
+# "scan_aborted"
+#, fuzzy
+msgid "Scanning aborted!"
+msgstr "Scannen afgebroken!"
+
+# "scan_chameleon"
+# Don't remove "{x}".
+#, fuzzy
+msgid "{x} chameleon attack detected"
+msgstr "{x} kameleon aanval gedetecteerd"
+
+# "scan_checking"
+#, fuzzy
+msgid "Checking"
+msgstr "Verifiëren"
+
+# "scan_checking_contents"
+#, fuzzy
+msgid "Success! Proceeding to check contents."
+msgstr "Succes! Gaan tot verifiëren de inhoud."
+
+# "scan_command_injection"
+#, fuzzy
+msgid "Command injection attempt detected"
+msgstr "Command injectie poging gedetecteerd"
+
+# "scan_complete"
+#, fuzzy
+msgid "Complete"
+msgstr "Voltooid"
+
+# "scan_extensions_missing"
+#, fuzzy
+msgid "Failed (missing required extensions)!"
+msgstr "Mislukt (ontbrekende vereiste extensies)!"
+
+# "scan_filename_manipulation_detected"
+#, fuzzy
+msgid "Filename manipulation detected"
+msgstr "Bestandsnaam manipulatie ontdekt"
+
+# "scan_map_corrupted"
+#, fuzzy
+msgid "Signature map corrupted"
+msgstr "Handtekening kaart beschadigd"
+
+# "scan_map_missing"
+#, fuzzy
+msgid "Signature map missing"
+msgstr "Handtekening kaart ontbrekende"
+
+# "scan_missing_filename"
+#, fuzzy
+msgid "Missing filename"
+msgstr "Ontbrekende bestandsnaam"
+
+# "scan_not_archive"
+#, fuzzy
+msgid "Failed (empty or not an archive)!"
+msgstr "Mislukt (leeg of is geen archief)!"
+
+# "scan_no_problems_found"
+#, fuzzy
+msgid "No problems found."
+msgstr "Geen problemen gevonden."
+
+# "scan_reading"
+#, fuzzy
+msgid "Reading"
+msgstr "Lezen van"
+
+# "scan_signature_file_corrupted"
+#, fuzzy
+msgid "Signature file corrupted"
+msgstr "Handtekening bestand beschadigd"
+
+# "scan_signature_file_missing"
+#, fuzzy
+msgid "Signature file missing"
+msgstr "Handtekening bestand ontbreekt"
+
+# "scan_tampering"
+#, fuzzy
+msgid "Detected potentially dangerous file tampering"
+msgstr "Gedetecteerd potentieel gevaarlijke bestandswijziging"
+
+# "scan_unauthorised_upload"
+#, fuzzy
+msgid "Unauthorised file upload manipulation detected"
+msgstr "Ongeautoriseerde bestand uploaden manipulatie gedetecteerd"
+
+# "scan_unauthorised_upload_or_misconfig"
+#, fuzzy
+msgid "Unauthorised file upload manipulation or misconfiguration detected! "
+msgstr "Ongeautoriseerde bestand uploaden manipulatie of misconfiguratie gedetecteerd! "
+
+# "started"
+#, fuzzy
+msgid "Started"
+msgstr "Gestart"
+
+# "too_many_urls"
+#, fuzzy
+msgid "Too many URLs"
+msgstr "Te veel URL's"
+
+# "update_"
+#, fuzzy
+msgid "phpMussel will now attempt to update itself."
+msgstr "phpMussel zal nu proberen om zichzelf te bijwerken."
+
+# "update_available"
+#, fuzzy
+msgid "A script update is available."
+msgstr "Een script bijwerk is beschikbaar."
+
+# "update_complete"
+#, fuzzy
+msgid "Update check completed successfully."
+msgstr "Bijwerk verificatie afgerond geslaagd."
+
+# "update_created"
+# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% created".
+#, fuzzy
+msgid "created"
+msgstr "gecreëerd"
+
+# "update_deleted"
+# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% deleted".
+#, fuzzy
+msgid "deleted"
+msgstr "verwijderd"
+
+# "update_err1"
+#, fuzzy
+msgid "Failed to update: 'update.dat' missing. Reinstall or update manually."
+msgstr "Bijwerken mislukte: 'update.dat' vermist. Opnieuw installeren of bijwerken handmatig."
+
+# "update_err2"
+#, fuzzy
+msgid "Failed to update: 'update.dat' does not contain any valid update sources. Please update manually."
+msgstr "Bijwerken mislukte: 'update.dat' bevat geen geldige bijwerken bronnen. Bijwerken handmatig."
+
+# "update_err3"
+#, fuzzy
+msgid "Possible hack or forgery detected in the update instructions supplied by the update source; Source may possibly be compromised. Please notify the script author. Updating manually is recommended."
+msgstr "Mogelijke hack of vervalsing ontdekt in de instructies door de bijwerken bron; Bron mogelijk gecompromitteerd. Gelieve verwittigen het scriptschrijver. Handmatig updaten wordt aanbevolen."
+
+# "update_err4"
+#, fuzzy
+msgid "Missing checksum!"
+msgstr "Vermist checksum!"
+
+# "update_err5"
+#, fuzzy
+msgid "Missing data!"
+msgstr "Vermist data!"
+
+# "update_err6"
+#, fuzzy
+msgid "Bad data!"
+msgstr "Slecht data!"
+
+# "update_err7"
+#, fuzzy
+msgid "Bad checksum!"
+msgstr "Slecht checksum!"
+
+# "update_failed"
+#, fuzzy
+msgid "Failed."
+msgstr "Mislukt."
+
+# "update_fetch"
+#, fuzzy
+msgid "Attempting to fetch version data from"
+msgstr "Proberen te halen versie gegevens van"
+
+# "update_lock_detected"
+#, fuzzy
+msgid "Update lock detected: Can't continue. Check for corrupt updates or try again later."
+msgstr "Update slot gedetecteerd: Kan niet doorgaan. Controleren op updates corrupte of probeer later opnieuw."
+
+# "update_not"
+# Used with "created", "deleted" and "patched" to negate them. Only translate the "NOT", don't remove the "{x}". Rendered like "%FILENAME% NOT created", "%FILENAME% NOT deleted", "%FILENAME% NOT patched".
+#, fuzzy
+msgid "NOT {x}"
+msgstr "NIET {x}"
+
+# "update_not_available"
+#, fuzzy
+msgid "No script update is available at this time."
+msgstr "Geen script bijwerk beschikbaar op dit moment."
+
+# "update_not_possible"
+#, fuzzy
+msgid "A script update is available, but can't be fully updated with this version of the update script. Please update manually."
+msgstr "Een script bijwerk zijn beschikbaar, maar kan niet worden volledig bijgewerkt met deze versie van de bijwerkscript. Alstublieft bijwerken handmatig."
+
+# "update_no_source"
+#, fuzzy
+msgid "phpMussel has failed to update itself because it could not connect to a valid update source. Updating manually is recommended."
+msgstr "phpMussel heeft mislukt te bijwerken, omdat het niet kon verbinden met een geldige bijwerkenbron. Handmatig bijwerk zijn aanbevolen."
+
+# "update_patched"
+# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% patched".
+#, fuzzy
+msgid "patched"
+msgstr "versteld"
+
+# "update_scriptfile_missing"
+#, fuzzy
+msgid " Update script file missing! Please reinstall phpMussel."
+msgstr " Update script bestand vermist! Opnieuw installeer phpMussel."
+
+# "update_seconds_elapsed"
+# Rendered alongside integer second timers, eg, "5 seconds elapsed".
+#, fuzzy
+msgid " seconds elapsed"
+msgstr " seconden verstreken"
+
+# "update_signatures_available"
+#, fuzzy
+msgid "A signatures update is available."
+msgstr "Een handtekeningen bijwerken zijn beschikbaar."
+
+# "update_signatures_latest"
+#, fuzzy
+msgid "LATEST SIGNATURES"
+msgstr "LAATSTE HANDTEKENINGEN"
+
+# "update_signatures_not_available"
+#, fuzzy
+msgid "No signatures update is available at this time."
+msgstr "Geen handtekeningen bijwerken beschikbaar op dit moment."
+
+# "update_signatures_yours"
+#, fuzzy
+msgid "YOUR SIGNATURES"
+msgstr "UW HANDTEKENINGEN"
+
+# "update_success"
+#, fuzzy
+msgid "Success."
+msgstr "Succes."
+
+# "update_successfully"
+#, fuzzy
+msgid " successfully"
+msgstr " met succes"
+
+# "update_version_latest"
+#, fuzzy
+msgid "LATEST SCRIPT VERSION"
+msgstr "NIEUWSTE SCRIPT VERSIE"
+
+# "update_version_yours"
+#, fuzzy
+msgid "YOUR SCRIPT VERSION"
+msgstr "UW SCRIPT VERSIE"
+
+# "update_was"
+# Used with "created", "deleted" and "patched" to affirm them ({x} will be substituted with one of those words by the program; don't remove it). Useful for languages that make use of a specific particle or word to affirm a verb which is separate from its negative (or "NOT") form (such as Japanese, for example). Because we don't use this in English (the source language), only the {x} exists. You won't need to translate this if your language also doesn't use this.
+#, fuzzy
+msgid "{x}"
+msgstr "{x}"
+
+# "update_wrd1"
+#, fuzzy
+msgid "signatures"
+msgstr "handtekeningen"
+
+# "upload_error_1"
+#, fuzzy
+msgid "Filesize exceeds MAX_FILE_SIZE directive. "
+msgstr "Bestandsgrootte overschrijdt MAX_FILE_SIZE richtlijn. "
+
+# "upload_error_2"
+#, fuzzy
+msgid "Filesize exceeds form-specified filesize limit. "
+msgstr "Bestandsgrootte overschrijdt vorm gespecificeerde bestandsgrootte limiet. "
+
+# "upload_error_34"
+#, fuzzy
+msgid "Upload failure! Please contact the hostmaster for assistance! "
+msgstr "Upload mislukking! Contact op met de hostmaster voor hulp! "
+
+# "upload_error_6"
+#, fuzzy
+msgid "Upload directory missing! Please contact the hostmaster for assistance! "
+msgstr "Uploadmap ontbreekt! Contact op met de hostmaster voor hulp! "
+
+# "upload_error_7"
+#, fuzzy
+msgid "Disc-write error! Please contact the hostmaster for assistance! "
+msgstr "Disc-schrijffout! Contact op met de hostmaster voor hulp! "
+
+# "upload_error_8"
+#, fuzzy
+msgid "PHP misconfiguration detected! Please contact the hostmaster for assistance! "
+msgstr "PHP misconfiguratie gedetecteerd! Contact op met de hostmaster voor hulp! "
+
+# "upload_limit_exceeded"
+#, fuzzy
+msgid "Upload limit exceeded"
+msgstr "Uploadlimiet overschreden"
+
+# "wrong_password"
+#, fuzzy
+msgid "Wrong password; Action denied."
+msgstr "Verkeerd wachtwoord; Actie geweigerd."
+
+# "x_does_not_exist"
+# Rendered as "%FILENAME% does not exist".
+#, fuzzy
+msgid "does not exist"
+msgstr "niet bestaat"
+
+# "_exclamation"
+msgid "! "
+msgstr "! "
+
+# "_exclamation_final"
+msgid "!"
+msgstr "!"
+
+# "_fullstop"
+msgid ". "
+msgstr ". "
+
+# "_fullstop_final"
+msgid "."
+msgstr "."

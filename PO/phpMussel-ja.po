@@ -1,0 +1,549 @@
+# phpMussel language data
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.ja.inc
+# POT (template) source: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-en-SOURCE.pot
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-ja.po
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Project-Id-Version: phpMussel v0.9.0\n"
+
+# "bad_command"
+#, fuzzy
+msgid "I don't understand that command, sorry."
+msgstr "私はそのコマンドがわかりません、ごめんなさい。"
+
+# "cli_commands"
+# This is a list of commands supplied to the user by the program. Only change command descriptions! Don't change command aliases/names!
+#, fuzzy
+msgid " q\n - Quit CLI.\n - Aliases: quit, exit.\n md5_file\n - Generate MD5 signatures from files [Syntax: md5_file filename].\n - Alias: m.\n md5\n - Generate MD5 signature from string [Syntax: md5 string].\n hex_encode\n - Convert binary string to hexadecimal [Syntax: hex_encode string].\n - Alias: x.\n hex_decode\n - Convert hexadecimal to binary string [Syntax: hex_decode string].\n base64_encode\n - Convert binary string to base64 string [Syntax: base64_encode string].\n - Alias: b.\n base64_decode\n - Convert base64 string to binary string [Syntax: base64_decode string].\n scan\n - Scan file or directory [Syntax: scan filename].\n - Alias: s.\n update\n - Update phpMussel.\n - Alias: u.\n c\n - Print this command list.\n"
+msgstr " q\n - CLIを終了します。\n - エイリアス： quit, exit.\n md5_file\n - ファイルからMD5署名を生成します 「構文: md5_file ファイル名」。\n - エイリアス： m.\n md5\n - データからのMD5署名を生成します 「構文: md5 データ」。\n hex_encode\n - バイナリデータから16進数データへを変換します 「構文: hex_encode バイナリデータ」。\n - エイリアス： x.\n hex_decode\n - バイナリデータから16進数データへを変換します 「構文: hex_decode 16進数データ」。\n base64_encode\n - バイナリデータからベース64データへを変換します 「構文: base64_encode バイナリデータ」。\n - エイリアス： b.\n base64_decode\n - ベース64データからバイナリデータへを変換します 「構文: base64_decode ベース64データ」。\n scan\n - スキャンファイルまたはディレクトリ 「構文: scan ファイル名」。\n - エイリアス： s.\n update\n - phpMusselアップデートします。\n - エイリアス： u.\n c\n - このコマンドリストを表示します。\n"
+
+# "cli_failed_to_complete"
+#, fuzzy
+msgid "Failed to complete scanning process"
+msgstr "スキャンプロセス完了できませんでした"
+
+# "cli_is_not_a"
+# Rendered as "%FILENAME% is not a file or directory."
+#, fuzzy
+msgid " is not a file or directory."
+msgstr "ファイルまたはディレクトリはありません。"
+
+# "cli_ln2"
+#, fuzzy
+msgid " Thank you for using phpMussel, a PHP script designed to detect trojans,\n viruses, malware and other threats within files uploaded to your system\n wherever the script is hooked, based on the signatures of ClamAV and others.\n\n PHPMUSSEL COPYRIGHT 2013 and beyond GNU/GPLv2 by Caleb M (Maikuolan).\n\n                                     ~ ~ ~\n\n"
+msgstr " phpMusselをご利用いただきありがとうございます！PHPスクリプトがために設計されています：検出のトロイの木馬、ウイルス、マルウェア、やその他の脅威、\n （どこファイルがシステムにアップロードされました、どこスクリプトが接続されました）。 ClamAV署名や他人に基づいています。\n\n PHPMUSSEL 著作権 2013 や以降です、GNU/GPLv2です、カレブによって作成（Maikuolan）。\n\n                                     ~ ~ ~\n\n"
+
+# "cli_ln3"
+#, fuzzy
+msgid " Currently running phpMussel in CLI mode (command line interface).\n\n To scan a file or directory, type 'scan', followed by the name of the file or\n directory that you want phpMussel to scan and press Enter; Type 'c' and press\n Enter for a list of CLI mode commands; Type 'q' and press Enter to quit:"
+msgstr " phpMusselは、現在のCLIモード（コマンドラインインターフェース）で動作しています。\n\n ファイルまたはディレクトリをスキャンするには、入力「scan」、ファイルまたはディレクトリの名前、その後、Enterキーを押しますしてください；\n CLIモードのリストコマンドについては、入力し「c」とEnterキーを押します； 終了については、入力し「q」とEnterキーを押します："
+
+# "cli_pe1"
+#, fuzzy
+msgid "Not a valid PE file!"
+msgstr "有効なPEファイルではありません！"
+
+# "cli_pe2"
+#, fuzzy
+msgid "PE Sections:"
+msgstr "PE セクション："
+
+# "cli_update_restart"
+#, fuzzy
+msgid " Restarting phpMussel may be required before updates become apparent."
+msgstr " アップデートが明らかになるためには、再起動phpMusselが必要な場合があります。"
+
+# "cli_working"
+#, fuzzy
+msgid "In progress"
+msgstr "進行中"
+
+# "controls_lockout"
+#, fuzzy
+msgid "phpMussel controls lockout enabled."
+msgstr "「phpMussel」はコントロールロックアウトはアクティブです。"
+
+# "core_scriptfile_missing"
+#, fuzzy
+msgid "Core script file missing! Please reinstall phpMussel."
+msgstr "コアスクリプトファイルはありません！「phpMussel」を再インストールしてください、お願いします。"
+
+# "corrupted"
+#, fuzzy
+msgid "Detected corrupted PE"
+msgstr "検出されたPEが破損しました"
+
+# "denied"
+#, fuzzy
+msgid "Upload Denied!"
+msgstr "アップロード拒否されました！"
+
+# "denied_reason"
+#, fuzzy
+msgid "Your upload was blocked for the reasons listed below"
+msgstr "アップロードは次の原因で拒否されました"
+
+# "detected"
+# Don't remove "{vn}"; Just translate "Detected". This string is used by the program to report to the user when something is detected. For example, if the program detects a virus named "V1rus123", {vn} will be populated by the name and the program will return (using the string) a message like "Detected V1rus123!"
+#, fuzzy
+msgid "Detected {vn}"
+msgstr "検出された{vn}"
+
+# "detected_control_characters"
+#, fuzzy
+msgid "Detected control characters"
+msgstr "検出された制御文字"
+
+# "encrypted_archive"
+#, fuzzy
+msgid "Detected encrypted archive; Encrypted archives not permitted"
+msgstr "検出された暗号化されたアーカイブ; 暗号化されたアーカイブは許可されていません"
+
+# "failed_to_access"
+# Rendered as "Failed to access %FILENAME%"
+#, fuzzy
+msgid "Failed to access "
+msgstr "アクセスに失敗しました"
+
+# "file"
+#, fuzzy
+msgid "File"
+msgstr "ファイル"
+
+# "filesize_limit_exceeded"
+#, fuzzy
+msgid "Filesize limit exceeded"
+msgstr "ファイルサイズリミットを超えました"
+
+# "filetype_blacklisted"
+#, fuzzy
+msgid "Filetype blacklisted"
+msgstr "ファイルタイプはブラックリストに掲載されています"
+
+# "finished"
+#, fuzzy
+msgid "Finished"
+msgstr "終了しました"
+
+# "generated_by"
+# Rendered as "Generated by %PROGRAM-NAME%"
+#, fuzzy
+msgid "Generated by"
+msgstr "によって搭載しました"
+
+# "greylist_cleared"
+#, fuzzy
+msgid " Greylist cleared."
+msgstr " グレーリストがクリアされました。"
+
+# "greylist_not_updated"
+#, fuzzy
+msgid " Greylist not updated."
+msgstr " グレーリストがアップデートされません。"
+
+# "greylist_updated"
+#, fuzzy
+msgid " Greylist updated."
+msgstr " グレーリストがアップデートされました。"
+
+# "image"
+#, fuzzy
+msgid "Image"
+msgstr "画像"
+
+# "instance_already_active"
+#, fuzzy
+msgid "Instance already active! Please double-check your hooks."
+msgstr "インスタンスすでにアクティブ！あなたのフックをダブルチェックしてください。"
+
+# "invalid_file"
+#, fuzzy
+msgid "Invalid file"
+msgstr "無効なファイル"
+
+# "invalid_url"
+#, fuzzy
+msgid "Invalid URL!"
+msgstr "無効なURL！"
+
+# "ok"
+msgid "OK"
+msgstr "大丈夫です"
+
+# "only_allow_images"
+#, fuzzy
+msgid "Uploading files other than images isn't permitted"
+msgstr "画像以外のファイルアップロードは許可されません"
+
+# "phpmussel_disabled"
+#, fuzzy
+msgid "phpMussel disabled."
+msgstr "「phpMussel」は非アクティブです。"
+
+# "phpmussel_disabled_already"
+#, fuzzy
+msgid "phpMussel already disabled."
+msgstr "「phpMussel」はすでに非アクティブです。"
+
+# "phpmussel_enabled"
+#, fuzzy
+msgid "phpMussel enabled."
+msgstr "「phpMussel」はアクティブです。"
+
+# "phpmussel_enabled_already"
+#, fuzzy
+msgid "phpMussel already enabled."
+msgstr "「phpMussel」はすでにアクティブです。"
+
+# "plugins_directory_nonexistent"
+#, fuzzy
+msgid "Plugins directory doesn't exist!"
+msgstr "プラグインディレクトリが存在しません！"
+
+# "recursive"
+#, fuzzy
+msgid "Recursion depth limit exceeded"
+msgstr "再帰深さリミットを超えました"
+
+# "required_variables_not_defined"
+#, fuzzy
+msgid "Required variables aren't defined: Can't continue."
+msgstr "必要な変数が定義されていません；続行できません。"
+
+# "scan_aborted"
+#, fuzzy
+msgid "Scanning aborted!"
+msgstr "スキャンは中断されました！"
+
+# "scan_chameleon"
+# Don't remove "{x}".
+#, fuzzy
+msgid "{x} chameleon attack detected"
+msgstr "検出された{x}カメレオン攻撃"
+
+# "scan_checking"
+#, fuzzy
+msgid "Checking"
+msgstr "検証は進行中"
+
+# "scan_checking_contents"
+#, fuzzy
+msgid "Success! Proceeding to check contents."
+msgstr "成功！内容を確認します。"
+
+# "scan_command_injection"
+#, fuzzy
+msgid "Command injection attempt detected"
+msgstr "コマンドインジェクションの試みが検出されました"
+
+# "scan_complete"
+#, fuzzy
+msgid "Complete"
+msgstr "完成しました"
+
+# "scan_extensions_missing"
+#, fuzzy
+msgid "Failed (missing required extensions)!"
+msgstr "失敗しました（必要な拡張機能が欠落しています）！"
+
+# "scan_filename_manipulation_detected"
+#, fuzzy
+msgid "Filename manipulation detected"
+msgstr "検出されたファイル名改ざん"
+
+# "scan_map_corrupted"
+#, fuzzy
+msgid "Signature map corrupted"
+msgstr "署名地図が破損しました"
+
+# "scan_map_missing"
+#, fuzzy
+msgid "Signature map missing"
+msgstr "署名地図はありません"
+
+# "scan_missing_filename"
+#, fuzzy
+msgid "Missing filename"
+msgstr "ファイル名はありません"
+
+# "scan_not_archive"
+#, fuzzy
+msgid "Failed (empty or not an archive)!"
+msgstr "失敗しました（空です、または、アーカイブではありません）！"
+
+# "scan_no_problems_found"
+#, fuzzy
+msgid "No problems found."
+msgstr "問題は見つかりませんでした。"
+
+# "scan_reading"
+#, fuzzy
+msgid "Reading"
+msgstr "読んでいます"
+
+# "scan_signature_file_corrupted"
+#, fuzzy
+msgid "Signature file corrupted"
+msgstr "署名ファイルが破損しました"
+
+# "scan_signature_file_missing"
+#, fuzzy
+msgid "Signature file missing"
+msgstr "署名ファイルはありません"
+
+# "scan_tampering"
+#, fuzzy
+msgid "Detected potentially dangerous file tampering"
+msgstr "検出された潜在的に危険なファイル改ざん"
+
+# "scan_unauthorised_upload"
+#, fuzzy
+msgid "Unauthorised file upload manipulation detected"
+msgstr "不正ファイルアップロード改ざんが検出されました"
+
+# "scan_unauthorised_upload_or_misconfig"
+#, fuzzy
+msgid "Unauthorised file upload manipulation or misconfiguration detected! "
+msgstr "不正ファイルアップロード改ざんまたはミスコンフィギュレーションが検出されました！"
+
+# "started"
+#, fuzzy
+msgid "Started"
+msgstr "開始しました"
+
+# "too_many_urls"
+#, fuzzy
+msgid "Too many URLs"
+msgstr "あまりにも多くのURL"
+
+# "update_"
+#, fuzzy
+msgid "phpMussel will now attempt to update itself."
+msgstr "phpMusselは現在、自身をアップデートしようとします。"
+
+# "update_available"
+#, fuzzy
+msgid "A script update is available."
+msgstr "スクリプトアップデートが利用可能です。"
+
+# "update_complete"
+#, fuzzy
+msgid "Update check completed successfully."
+msgstr "アップロードチェックは成功しました。"
+
+# "update_created"
+# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% created".
+#, fuzzy
+msgid "created"
+msgstr "作成"
+
+# "update_deleted"
+# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% deleted".
+#, fuzzy
+msgid "deleted"
+msgstr "削除"
+
+# "update_err1"
+#, fuzzy
+msgid "Failed to update: 'update.dat' missing. Reinstall or update manually."
+msgstr "アップデートに失敗しました：「update.dat」はありません。再インストールしてください、または手動でのアップデート、お願いします。"
+
+# "update_err2"
+#, fuzzy
+msgid "Failed to update: 'update.dat' does not contain any valid update sources. Please update manually."
+msgstr "アップデートに失敗しました：「update.dat」は有効なアップデート元が含ましていません。手動でのアップデート、お願いします。"
+
+# "update_err3"
+#, fuzzy
+msgid "Possible hack or forgery detected in the update instructions supplied by the update source; Source may possibly be compromised. Please notify the script author. Updating manually is recommended."
+msgstr "アップデート元により供給されました、アップデート手順で、疑わハックや偽造が検出されました；元が潜在的に危険にさらさ。スクリプトの作成者に通知ください、お願いします。手動でのアップデートは推奨されます。"
+
+# "update_err4"
+#, fuzzy
+msgid "Missing checksum!"
+msgstr "チェックサムはありません！"
+
+# "update_err5"
+#, fuzzy
+msgid "Missing data!"
+msgstr "データはありません！"
+
+# "update_err6"
+#, fuzzy
+msgid "Bad data!"
+msgstr "データ悪いです！"
+
+# "update_err7"
+#, fuzzy
+msgid "Bad checksum!"
+msgstr "チェックサム悪いです！"
+
+# "update_failed"
+#, fuzzy
+msgid "Failed."
+msgstr "失敗しました。"
+
+# "update_fetch"
+#, fuzzy
+msgid "Attempting to fetch version data from"
+msgstr "バージョン情報が取得されますから"
+
+# "update_lock_detected"
+#, fuzzy
+msgid "Update lock detected: Can't continue. Check for corrupt updates or try again later."
+msgstr "アップデートロックが検出されました；続行できません。破損したアップデート探してまたは後でもう一度試しますください。"
+
+# "update_not"
+# Used with "created", "deleted" and "patched" to negate them. Only translate the "NOT", don't remove the "{x}". Rendered like "%FILENAME% NOT created", "%FILENAME% NOT deleted", "%FILENAME% NOT patched".
+#, fuzzy
+msgid "NOT {x}"
+msgstr "{x}されませんでした"
+
+# "update_not_available"
+#, fuzzy
+msgid "No script update is available at this time."
+msgstr "現時点では、スクリプトアップデートが利用できません。"
+
+# "update_not_possible"
+#, fuzzy
+msgid "A script update is available, but can't be fully updated with this version of the update script. Please update manually."
+msgstr "スクリプトアップデートが利用可能です、しかし、アップデートスクリプトのこのバージョンから、それは完全にアップデートができません。手動でのアップデート、お願いします。"
+
+# "update_no_source"
+#, fuzzy
+msgid "phpMussel has failed to update itself because it could not connect to a valid update source. Updating manually is recommended."
+msgstr "phpMusselは、有効なアップデート元に接続できなかったため、自身のアップデートに失敗しました。手動でのアップデートは推奨されます。"
+
+# "update_patched"
+# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% patched".
+#, fuzzy
+msgid "patched"
+msgstr "パッチ"
+
+# "update_scriptfile_missing"
+#, fuzzy
+msgid " Update script file missing! Please reinstall phpMussel."
+msgstr " アップデートスクリプトファイルはありません！「phpMussel」を再インストールしてください、お願いします。"
+
+# "update_seconds_elapsed"
+# Rendered alongside integer second timers, eg, "5 seconds elapsed".
+#, fuzzy
+msgid " seconds elapsed"
+msgstr "秒が経過しました"
+
+# "update_signatures_available"
+#, fuzzy
+msgid "A signatures update is available."
+msgstr "署名アップデートが利用可能です。"
+
+# "update_signatures_latest"
+#, fuzzy
+msgid "LATEST SIGNATURES"
+msgstr "最新の署名"
+
+# "update_signatures_not_available"
+#, fuzzy
+msgid "No signatures update is available at this time."
+msgstr "現時点では、署名アップデートが利用できません。"
+
+# "update_signatures_yours"
+#, fuzzy
+msgid "YOUR SIGNATURES"
+msgstr "あなたの署名"
+
+# "update_success"
+#, fuzzy
+msgid "Success."
+msgstr "成功。"
+
+# "update_successfully"
+#, fuzzy
+msgid " successfully"
+msgstr "成功"
+
+# "update_version_latest"
+#, fuzzy
+msgid "LATEST SCRIPT VERSION"
+msgstr "最新のスクリプト·バージョン"
+
+# "update_version_yours"
+#, fuzzy
+msgid "YOUR SCRIPT VERSION"
+msgstr "あなたのスクリプト·バージョン"
+
+# "update_was"
+# Used with "created", "deleted" and "patched" to affirm them ({x} will be substituted with one of those words by the program; don't remove it). Useful for languages that make use of a specific particle or word to affirm a verb which is separate from its negative (or "NOT") form (such as Japanese, for example). Because we don't use this in English (the source language), only the {x} exists. You won't need to translate this if your language also doesn't use this.
+#, fuzzy
+msgid "{x}"
+msgstr "{x}しました"
+
+# "update_wrd1"
+#, fuzzy
+msgid "signatures"
+msgstr "署名"
+
+# "upload_error_1"
+#, fuzzy
+msgid "Filesize exceeds MAX_FILE_SIZE directive. "
+msgstr "ファイルサイズは、「MAX_FILE_SIZE」ディレクティブを超えています。"
+
+# "upload_error_2"
+#, fuzzy
+msgid "Filesize exceeds form-specified filesize limit. "
+msgstr "ファイルサイズは、フォーム指定ファイルサイズの上限を超えています。"
+
+# "upload_error_34"
+#, fuzzy
+msgid "Upload failure! Please contact the hostmaster for assistance! "
+msgstr "アップロードの失敗！支援のためのホストマスタに連絡してください！"
+
+# "upload_error_6"
+#, fuzzy
+msgid "Upload directory missing! Please contact the hostmaster for assistance! "
+msgstr "アップロードのディレクトリが存在しません！支援のためのホストマスタに連絡してください！"
+
+# "upload_error_7"
+#, fuzzy
+msgid "Disc-write error! Please contact the hostmaster for assistance! "
+msgstr "ディスク書き込みエラー！支援のためのホストマスタに連絡してください！"
+
+# "upload_error_8"
+#, fuzzy
+msgid "PHP misconfiguration detected! Please contact the hostmaster for assistance! "
+msgstr "PHPミスコンフィギュレーションを検出しました！支援のためのホストマスタに連絡してください！"
+
+# "upload_limit_exceeded"
+#, fuzzy
+msgid "Upload limit exceeded"
+msgstr "アップロードリミットを超えました"
+
+# "wrong_password"
+#, fuzzy
+msgid "Wrong password; Action denied."
+msgstr "間違ったパスワード; アクション拒否されました。"
+
+# "x_does_not_exist"
+# Rendered as "%FILENAME% does not exist".
+#, fuzzy
+msgid "does not exist"
+msgstr "が存在しません"
+
+# "_exclamation"
+msgid "! "
+msgstr "！"
+
+# "_exclamation_final"
+msgid "!"
+msgstr "！"
+
+# "_fullstop"
+msgid ". "
+msgstr "。"
+
+# "_fullstop_final"
+msgid "."
+msgstr "。"

@@ -1,0 +1,448 @@
+# phpMussel language data
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.de.inc
+# POT (template) source: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-en-SOURCE.pot
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-de.po
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Project-Id-Version: phpMussel v0.9.0\n"
+
+# "bad_command"
+msgid "I don't understand that command, sorry."
+msgstr "Entschuldigung, ich verstehe diesen Befehl nicht."
+
+# "cli_commands"
+# This is a list of commands supplied to the user by the program. Only change command descriptions! Don't change command aliases/names!
+msgid " q\n - Quit CLI.\n - Aliases: quit, exit.\n md5_file\n - Generate MD5 signatures from files [Syntax: md5_file filename].\n - Alias: m.\n md5\n - Generate MD5 signature from string [Syntax: md5 string].\n hex_encode\n - Convert binary string to hexadecimal [Syntax: hex_encode string].\n - Alias: x.\n hex_decode\n - Convert hexadecimal to binary string [Syntax: hex_decode string].\n base64_encode\n - Convert binary string to base64 string [Syntax: base64_encode string].\n - Alias: b.\n base64_decode\n - Convert base64 string to binary string [Syntax: base64_decode string].\n scan\n - Scan file or directory [Syntax: scan filename].\n - Alias: s.\n update\n - Update phpMussel.\n - Alias: u.\n c\n - Print this command list.\n"
+msgstr " q\n - Beendet den CLI-Modus.\n - Alias: quit, exit.\n md5_file\n - Generiert MD5-Signaturen einer Datei\n   [Syntax: md5_file filename].\n - Alias: m.\n md5\n - Generiert MD5-Signaturen eines String-Wertes\n   [Syntax: md5 string].\n hex_encode\n - Konvertiert einen Binär-Wert in einen Hexidezimal-Wert\n   [Syntax: hex_encode string].\n - Alias: x.\n hex_decode\n - Konvertiert einen Hexidezimal-Wert in einen Binär-Wert\n   [Syntax: hex_decode string].\n base64_encode\n -  Konvertiert einen Binär-Wert in einen Base64-Wert\n   [Syntax: base64_encode string].\n - Alias: b.\n base64_decode\n - Konvertiert einen Base64-Wert in einen Binär-Wert\n   [Syntax: base64_decode string].\n scan\n - Überprüft eine Datei oder ein Verzeichnis\n   [Syntax: scan filename].\n - Alias: s.\n update\n - Aktualisiert phpMussel.\n - Alias: u.\n c\n - Gibt diese Befehlsliste aus.\n"
+
+# "cli_failed_to_complete"
+msgid "Failed to complete scanning process"
+msgstr "Ein vollständiger Scan konnte nicht durchgeführt werden"
+
+# "cli_is_not_a"
+# Rendered as "%FILENAME% is not a file or directory."
+msgid " is not a file or directory."
+msgstr " ist keine Datei oder ein Verzeichnis."
+
+# "cli_ln2"
+msgid " Thank you for using phpMussel, a PHP script designed to detect trojans,\n viruses, malware and other threats within files uploaded to your system\n wherever the script is hooked, based on the signatures of ClamAV and others.\n\n PHPMUSSEL COPYRIGHT 2013 and beyond GNU/GPLv2 by Caleb M (Maikuolan).\n\n                                     ~ ~ ~\n\n"
+msgstr " Vielen Dank für die Benutzung von phpMussel, einem auf PHP basiertem Script,\n um Trojaner, Viren, Malware und andere Bedrohungen in Dateien zu entdecken,\n die auf Ihr System hochgeladen werden könnten, welches die Signaturen von\n ClamAV und andere nutzt.\n\n PHPMUSSEL COPYRIGHT 2013 and beyond GNU/GPLv2 by Caleb M (Maikuolan).\n\n                                     ~ ~ ~\n\n"
+
+# "cli_ln3"
+msgid " Currently running phpMussel in CLI mode (command line interface).\n\n To scan a file or directory, type 'scan', followed by the name of the file or\n directory that you want phpMussel to scan and press Enter; Type 'c' and press\n Enter for a list of CLI mode commands; Type 'q' and press Enter to quit:"
+msgstr " phpMussel befindet sich im CLI-Modus (Command Line Interface).\n\n Um eine Datei oder ein Verzeichnis mit phpMussel zu überprüfen, geben Sie\n 'scan', gefolgt vom Namen der Datei oder des Verzeichnisses ein und\n bestätigen mit Enter;\n\n Geben Sie 'c' und Enter für eine Liste der verfügbaren Befehle im CLI-Modus\n ein; Geben Sie 'q' und Enter zum Beenden ein: "
+
+# "cli_pe1"
+msgid "Not a valid PE file!"
+msgstr "Keine gültige PE-Datei!"
+
+# "cli_pe2"
+msgid "PE Sections:"
+msgstr "PE-Sektionen:"
+
+# "cli_update_restart"
+msgid " Restarting phpMussel may be required before updates become apparent."
+msgstr " phpMussel muss neu gestartet werden, damit die Aktualisierungen wirksam werden."
+
+# "cli_working"
+msgid "In progress"
+msgstr "Im Gange"
+
+# "controls_lockout"
+msgid "phpMussel controls lockout enabled."
+msgstr "phpMussel Kontrollen-Sperrung aktiviert."
+
+# "core_scriptfile_missing"
+msgid "Core script file missing! Please reinstall phpMussel."
+msgstr "Coree-Script Datei fehlt! Bitte phpMussel erneut installieren."
+
+# "corrupted"
+msgid "Detected corrupted PE"
+msgstr "Beschädigte PE entdeckt"
+
+# "denied"
+msgid "Upload Denied!"
+msgstr "Upload verweigert!"
+
+# "denied_reason"
+msgid "Your upload was blocked for the reasons listed below"
+msgstr "Der Upload wurde aus den unten aufgeführten Gründen blockiert"
+
+# "detected"
+# Don't remove "{vn}"; Just translate "Detected". This string is used by the program to report to the user when something is detected. For example, if the program detects a virus named "V1rus123", {vn} will be populated by the name and the program will return (using the string) a message like "Detected V1rus123!"
+msgid "Detected {vn}"
+msgstr "Entdeckt {vn}"
+
+# "detected_control_characters"
+msgid "Detected control characters"
+msgstr "Steuerzeichen erkannt"
+
+# "encrypted_archive"
+msgid "Detected encrypted archive; Encrypted archives not permitted"
+msgstr "Verschlüsseltes Archiv entdeckt; Verschlüsselte Archive sind nicht erlaubt"
+
+# "failed_to_access"
+# Rendered as "Failed to access %FILENAME%"
+msgid "Failed to access "
+msgstr "Zugriff fehlgeschlagen auf "
+
+# "file"
+msgid "File"
+msgstr "Datei"
+
+# "filesize_limit_exceeded"
+msgid "Filesize limit exceeded"
+msgstr "Dateigröße überschritten"
+
+# "filetype_blacklisted"
+msgid "Filetype blacklisted"
+msgstr "Dateityp auf Blacklist"
+
+# "finished"
+msgid "Finished"
+msgstr "Fertig"
+
+# "generated_by"
+# Rendered as "Generated by %PROGRAM-NAME%"
+msgid "Generated by"
+msgstr "Generiert von"
+
+# "greylist_cleared"
+msgid " Greylist cleared."
+msgstr " Greylist gelöscht."
+
+# "greylist_not_updated"
+msgid " Greylist not updated."
+msgstr " Greylist nicht aktualisiert."
+
+# "greylist_updated"
+msgid " Greylist updated."
+msgstr " Greylist aktualisiert."
+
+# "image"
+msgid "Image"
+msgstr "Bild"
+
+# "instance_already_active"
+msgid "Instance already active! Please double-check your hooks."
+msgstr "Instanz bereits aktiv! Bitte prüfe deine Hooks."
+
+# "invalid_file"
+msgid "Invalid file"
+msgstr "Ungültige Datei"
+
+# "invalid_url"
+msgid "Invalid URL!"
+msgstr "Ungültige URL!"
+
+# "ok"
+msgid "OK"
+msgstr "OK"
+
+# "only_allow_images"
+msgid "Uploading files other than images isn't permitted"
+msgstr "Upload von Nicht-Bilddateien ist nicht erlaubt"
+
+# "phpmussel_disabled"
+msgid "phpMussel disabled."
+msgstr "phpMussel deaktiviert."
+
+# "phpmussel_disabled_already"
+msgid "phpMussel already disabled."
+msgstr "phpMussel bereits deaktiviert."
+
+# "phpmussel_enabled"
+msgid "phpMussel enabled."
+msgstr "phpMussel aktiviert."
+
+# "phpmussel_enabled_already"
+msgid "phpMussel already enabled."
+msgstr "phpMussel bereits aktiviert."
+
+# "plugins_directory_nonexistent"
+msgid "Plugins directory doesn't exist!"
+msgstr "Plugins-Verzeichnis nicht vorhanden!"
+
+# "recursive"
+msgid "Recursion depth limit exceeded"
+msgstr "Rekursionstiefe-Limit überschritten"
+
+# "required_variables_not_defined"
+msgid "Required variables aren't defined: Can't continue."
+msgstr "Benötigte Variablen sind nicht definiert: Kann nicht fortfahren."
+
+# "scan_aborted"
+msgid "Scanning aborted!"
+msgstr "Scan abgebrochen!"
+
+# "scan_chameleon"
+# Don't remove "{x}".
+msgid "{x} chameleon attack detected"
+msgstr "{x}-Chamäleon-Angriff erkannt"
+
+# "scan_checking"
+msgid "Checking"
+msgstr "Überprüfung"
+
+# "scan_checking_contents"
+msgid "Success! Proceeding to check contents."
+msgstr "Erfolg! Überprüfe Inhalte."
+
+# "scan_command_injection"
+msgid "Command injection attempt detected"
+msgstr "CMD-Injektion erkannt"
+
+# "scan_complete"
+msgid "Complete"
+msgstr "Komplett"
+
+# "scan_extensions_missing"
+msgid "Failed (missing required extensions)!"
+msgstr "Gescheitert (fehlende benötigte Erweiterungen)!"
+
+# "scan_filename_manipulation_detected"
+msgid "Filename manipulation detected"
+msgstr "Manipulation des Dateinamens erkannt"
+
+# "scan_map_corrupted"
+msgid "Signature map corrupted"
+msgstr "Signaturkarte beschädigt"
+
+# "scan_map_missing"
+msgid "Signature map missing"
+msgstr "Signaturkarte fehlt"
+
+# "scan_missing_filename"
+msgid "Missing filename"
+msgstr "Fehlender Dateiname"
+
+# "scan_not_archive"
+msgid "Failed (empty or not an archive)!"
+msgstr "Gescheitert (leer oder kein Archiv)!"
+
+# "scan_no_problems_found"
+msgid "No problems found."
+msgstr "Keine Probleme gefunden."
+
+# "scan_reading"
+msgid "Reading"
+msgstr "Lesen"
+
+# "scan_signature_file_corrupted"
+msgid "Signature file corrupted"
+msgstr "Signaturdatei beschädigt"
+
+# "scan_signature_file_missing"
+msgid "Signature file missing"
+msgstr "Signaturdatei fehlt"
+
+# "scan_tampering"
+msgid "Detected potentially dangerous file tampering"
+msgstr "Potentiell gefährliche Datei-Manipulation erkannt"
+
+# "scan_unauthorised_upload"
+msgid "Unauthorised file upload manipulation detected"
+msgstr "Unerlaubte Upload-Manipulation erkannt"
+
+# "scan_unauthorised_upload_or_misconfig"
+msgid "Unauthorised file upload manipulation or misconfiguration detected! "
+msgstr "Unerlaubte Upload-Manipulation oder Fehlkonfiguration erkannt! "
+
+# "started"
+msgid "Started"
+msgstr "Gestartet"
+
+# "too_many_urls"
+msgid "Too many URLs"
+msgstr "Zu viele URLs"
+
+# "update_"
+msgid "phpMussel will now attempt to update itself."
+msgstr "phpMussel wird nun versuchen, sich zu aktualisieren."
+
+# "update_available"
+msgid "A script update is available."
+msgstr "Ein Script-Update ist verfügbar."
+
+# "update_complete"
+msgid "Update check completed successfully."
+msgstr "Update-Prüfung erfolgreich abgeschlossen."
+
+# "update_created"
+# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% created".
+msgid "created"
+msgstr "erstellt"
+
+# "update_deleted"
+# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% deleted".
+msgid "deleted"
+msgstr "gelöscht"
+
+# "update_err1"
+msgid "Failed to update: 'update.dat' missing. Reinstall or update manually."
+msgstr "Nicht aktualisiert: 'update.dat' fehlt. Erneut installieren oder manuell aktualisieren."
+
+# "update_err2"
+msgid "Failed to update: 'update.dat' does not contain any valid update sources. Please update manually."
+msgstr "Nicht aktualisiert: 'update.dat' keine gültigen Update-Quellen enthalten. Bitte aktualisieren Sie manuell."
+
+# "update_err3"
+msgid "Possible hack or forgery detected in the update instructions supplied by the update source; Source may possibly be compromised. Please notify the script author. Updating manually is recommended."
+msgstr "Möglicher Hack oder Fälschung in den von der Update-Quelle angebotenen Update-Anweisungen erkannt; Quelle wurde möglicherweise beeinträchtigt. Bitte benachrichtigen Sie den Skript-Autor. Manuelle Aktualisierung wird empfohlen."
+
+# "update_err4"
+msgid "Missing checksum!"
+msgstr "Checksumme fehlt!"
+
+# "update_err5"
+msgid "Missing data!"
+msgstr "Daten fehlen!"
+
+# "update_err6"
+msgid "Bad data!"
+msgstr "Daten beschädigt!"
+
+# "update_err7"
+msgid "Bad checksum!"
+msgstr "Checksumme beschädigt!"
+
+# "update_failed"
+msgid "Failed."
+msgstr "Gescheitert."
+
+# "update_fetch"
+msgid "Attempting to fetch version data from"
+msgstr "Abrufen von Versionsdaten aus"
+
+# "update_lock_detected"
+msgid "Update lock detected: Can't continue. Check for corrupt updates or try again later."
+msgstr "Update-Sperrung entdeckt: Kann nicht fortfahren. Prüf auf fehlerhafte Updates oder versuch es später nochmal."
+
+# "update_not"
+# Used with "created", "deleted" and "patched" to negate them. Only translate the "NOT", don't remove the "{x}". Rendered like "%FILENAME% NOT created", "%FILENAME% NOT deleted", "%FILENAME% NOT patched".
+msgid "NOT {x}"
+msgstr "NICHT {x}"
+
+# "update_not_available"
+msgid "No script update is available at this time."
+msgstr "Es steht zur Zeit kein Script-Update zur Verfügung."
+
+# "update_not_possible"
+msgid "A script update is available, but can't be fully updated with this version of the update script. Please update manually."
+msgstr "Ein Script-Update ist verfügbar, kann aber nicht vollständig mit dieser Version des Update-Scripts aktualisiert werden. Bitte aktualisieren Sie manuell."
+
+# "update_no_source"
+msgid "phpMussel has failed to update itself because it could not connect to a valid update source. Updating manually is recommended."
+msgstr "phpMussel konnte nicht aktualisiert werden, da es sich nicht zu einer gültigen Update-Quelle verbinden konnte. Manuelles Update wird empfohlen."
+
+# "update_patched"
+# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% patched".
+msgid "patched"
+msgstr "gepatcht"
+
+# "update_scriptfile_missing"
+msgid " Update script file missing! Please reinstall phpMussel."
+msgstr " Update-Script fehlt! Bitte installieren Sie phpMussel erneut."
+
+# "update_seconds_elapsed"
+# Rendered alongside integer second timers, eg, "5 seconds elapsed".
+msgid " seconds elapsed"
+msgstr " Sekunden verstrichen"
+
+# "update_signatures_available"
+msgid "A signatures update is available."
+msgstr "Ein Signaturenupdate ist verfügbar."
+
+# "update_signatures_latest"
+msgid "LATEST SIGNATURES"
+msgstr "AKTUELLE SIGNATUREN"
+
+# "update_signatures_not_available"
+msgid "No signatures update is available at this time."
+msgstr "Es steht zur Zeit kein Signaturenupdate zur Verfügung."
+
+# "update_signatures_yours"
+msgid "YOUR SIGNATURES"
+msgstr "IHRE SIGNATUREN"
+
+# "update_success"
+msgid "Success."
+msgstr "Erfolgreich."
+
+# "update_successfully"
+msgid " successfully"
+msgstr " erfolgreich"
+
+# "update_version_latest"
+msgid "LATEST SCRIPT VERSION"
+msgstr "AKTUELLE SCRIPT VERSION"
+
+# "update_version_yours"
+msgid "YOUR SCRIPT VERSION"
+msgstr "IHRE SCRIPT VERSION"
+
+# "update_was"
+# Used with "created", "deleted" and "patched" to affirm them ({x} will be substituted with one of those words by the program; don't remove it). Useful for languages that make use of a specific particle or word to affirm a verb which is separate from its negative (or "NOT") form (such as Japanese, for example). Because we don't use this in English (the source language), only the {x} exists. You won't need to translate this if your language also doesn't use this.
+msgid "{x}"
+msgstr "{x}"
+
+# "update_wrd1"
+msgid "signatures"
+msgstr "Signaturen"
+
+# "upload_error_1"
+msgid "Filesize exceeds MAX_FILE_SIZE directive. "
+msgstr "Dateigröße überschreitet die Richtlinie MAX_FILE_SIZE. "
+
+# "upload_error_2"
+msgid "Filesize exceeds form-specified filesize limit. "
+msgstr "Dateigröße überschreitet die im Formular angegebene Dateigröße. "
+
+# "upload_error_34"
+msgid "Upload failure! Please contact the hostmaster for assistance! "
+msgstr "Upload gescheitert! Bitte kontaktieren Sie den Hostmaster für Unterstützung! "
+
+# "upload_error_6"
+msgid "Upload directory missing! Please contact the hostmaster for assistance! "
+msgstr "Fehlendes Uploadverzeichnis! Bitte kontaktieren Sie den Hostmaster für Unterstützung! "
+
+# "upload_error_7"
+msgid "Disc-write error! Please contact the hostmaster for assistance! "
+msgstr "Festplatten-Schreibfehler! Bitte kontaktieren Sie den Hostmaster für Unterstützung! "
+
+# "upload_error_8"
+msgid "PHP misconfiguration detected! Please contact the hostmaster for assistance! "
+msgstr "PHP-Fehlkonfiguration erkannt! Bitte kontaktieren Sie den Hostmaster für Unterstützung! "
+
+# "upload_limit_exceeded"
+msgid "Upload limit exceeded"
+msgstr "Uploadlimit überschritten"
+
+# "wrong_password"
+msgid "Wrong password; Action denied."
+msgstr "Falsches Passwort; Ausführung des Befehls verweigert."
+
+# "x_does_not_exist"
+# Rendered as "%FILENAME% does not exist".
+msgid "does not exist"
+msgstr "nicht vorhanden"
+
+# "_exclamation"
+msgid "! "
+msgstr "! "
+
+# "_exclamation_final"
+msgid "!"
+msgstr "!"
+
+# "_fullstop"
+msgid ". "
+msgstr ". "
+
+# "_fullstop_final"
+msgid "."
+msgstr "."
