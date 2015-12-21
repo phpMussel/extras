@@ -165,7 +165,7 @@ msgstr "phpMussel bereits aktiviert."
 
 # "plugins_directory_nonexistent"
 msgid "Plugins directory doesn't exist!"
-msgstr "Plugins-Verzeichnis nicht vorhanden!"
+msgstr "Plugin-Verzeichnis nicht vorhanden!"
 
 # "recursive"
 msgid "Recursion depth limit exceeded"
