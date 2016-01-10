@@ -1,13 +1,12 @@
 <?php
-
 require_once 'Config.php';
 $phpIni = new Config();
 // read config file
 $root =& $phpIni->parseConfig('phpmussel.ini', 'inicommented');
 // get value from config file
 // $generalSection =& $root->getItem("section", "general");
-// $cleanup = $generalSection->getItem("directive", "cleanup"); 
-$cleanup = $root->getItem("section", "general")->getItem("directive", "cleanup"); 
+// $cleanup = $generalSection->getItem("directive", "cleanup");
+$cleanup = $root->getItem("section", "general")->getItem("directive", "cleanup");
 $disable_cli = $root->getItem("section", "general")->getItem("directive", "disable_cli");
 var_dump((bool)$cleanup->getContent());
 var_dump((bool)$disable_cli->getContent());
