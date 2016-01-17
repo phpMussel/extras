@@ -1,0 +1,7 @@
+AuthUserFile /absolute/path/to/.htpasswd
+AuthGroupFile /dev/null
+AuthName "login"
+AuthType Basic
+<Limit GET>
+require valid-user
+</Limit>
