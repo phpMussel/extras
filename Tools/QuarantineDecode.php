@@ -22,6 +22,7 @@
  * @param string $filename is the full path to the QFU file to be decoded.
  * @param string $key is the original quarantine key used to encode the file (QFU files can't be decoded without knowing the quarantine key originally used to encode the files).
  * @param bool $head indicates whether to return only metadata about the file (the MD5 hash and the original size of the encoded file) or to return the actual content of the file (optional).
+ * @return string The decoded QFU file contents.
  */
 function phpMussel_Decode_Quarantined_File($filename,$key,$head=false)
     {
