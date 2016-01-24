@@ -1,6 +1,6 @@
 <?php
-
-$string="Blah blah blah 123 \"http://kitdriver.com\" hello world.";
+$domain="kitdriver.com";
+$string="Blah blah blah 123 \"http://{$domain}\" hello world.";
 
 function encodeURI($url) {
     // http://php.net/manual/en/function.rawurlencode.php
