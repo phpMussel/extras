@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ar\n"
-"Project-Id-Version: phpMussel v0.9.0\n"
+"Project-Id-Version: phpMussel v0.9.2\n"
 
 # "bad_command"
 #, fuzzy
@@ -488,7 +488,7 @@ msgstr ""
 
 # "upload_error_1"
 #, fuzzy
-msgid "Filesize exceeds MAX_FILE_SIZE directive. "
+msgid "Filesize exceeds the upload_max_filesize directive. "
 msgstr ""
 
 # "upload_error_2"
