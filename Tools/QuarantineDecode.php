@@ -11,7 +11,7 @@
  */
 
 /**
- * phpMussel_Decode_Quarantined_File($filename,$key,$head=false);
+ * phpMussel_Decode_Quarantined_File($filename, $key, $head = false);
  *
  * WARNING: For your safety, if you decode quarantined files, I'd usually
  * recommend only using this function inside some other encoding function, such
@@ -20,27 +20,37 @@
  * some circumstances and cause harm to your system.
  *
  * @param string $filename is the full path to the QFU file to be decoded.
- * @param string $key is the original quarantine key used to encode the file (QFU files can't be decoded without knowing the quarantine key originally used to encode the files).
- * @param bool $head indicates whether to return only metadata about the file (the MD5 hash and the original size of the encoded file) or to return the actual content of the file (optional).
+ * @param string $key is the original quarantine key used to encode the file
+ *      (QFU files can't be decoded without knowing the quarantine key
+ *      originally used to encode the files).
+ * @param bool $head indicates whether to return only metadata about the file
+ *      (the MD5 hash and the original size of the encoded file) or to return
+ *      the actual content of the file (optional).
  * @return string The decoded QFU file contents.
  */
-function phpMussel_Decode_Quarantined_File($filename,$key,$head=false)
-    {
-    if(!$dat=@file_get_contents($filename))return '';
-    $o='';
-    if($head)
-        {
-        $dat=@substr($dat,170,32);
-        $o.='MD5: '.@bin2hex(substr($dat,11,16))."\n";
-        $o.='Raw Filesize: '.@unpack('l*',substr($dat,27,4))[1]."\n";
-        return $o;
-        }
-    if(!$c=strlen($dat=substr($dat,202)))return '';
-    $o='';
-    $i=0;
-    $key=@hex2bin(hash('sha512',$key).hash('whirlpool',$key));
-    $k=strlen($key);
-    while($i<$c)for($j=0;$j<$k;$j++,$i++)$o.=@$dat{$i}^$key{$j};
-    $o=@gzinflate($o);
-    return $o;
+function phpMussel_Decode_Quarantined_File($filename, $key, $head = false) {
+    if (!$dat = @file_get_contents($filename)) {
+        return '';
     }
+    $o = '';
+    if ($head) {
+        $dat = substr($dat, 170, 32);
+        $o .= 'MD5: ' . @bin2hex(substr($dat, 11, 16)) . "\n";
+        $o .= 'Raw Filesize: ' . @unpack('l*', substr($dat, 27, 4))[1] . "\n";
+        return $o;
+    }
+    if(!$c = strlen($dat = substr($dat, 202))) {
+        return '';
+    }
+    $o = '';
+    $i = 0;
+    $key = @hex2bin(hash('sha512', $key) . hash('whirlpool', $key));
+    $k = strlen($key);
+    while ($i < $c) {
+        for ($j = 0; $j < $k; $j++, $i++) {
+            $o .= @$dat{$i} ^ $key{$j};
+        }
+    }
+    $o = @gzinflate($o);
+    return $o;
+}
