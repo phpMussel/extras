@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
-"Project-Id-Version: phpMussel v0.9.2\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
 
 # "bad_command"
 #, fuzzy
@@ -51,11 +51,6 @@ msgstr "Tidak valid file PE!"
 #, fuzzy
 msgid "PE Sections:"
 msgstr "Seksi PE:"
-
-# "cli_update_restart"
-#, fuzzy
-msgid " Restarting phpMussel may be required before updates become apparent."
-msgstr " Restart phpMussel mungkin diperlukan sebelum perbarui menjadi jelas."
 
 # "cli_working"
 #, fuzzy
@@ -319,172 +314,6 @@ msgstr "Dimulai"
 #, fuzzy
 msgid "Too many URLs"
 msgstr "Terlalu banyak URL"
-
-# "update_"
-#, fuzzy
-msgid "phpMussel will now attempt to update itself."
-msgstr "phpMussel sekarang akan mencoba untuk sendiri update."
-
-# "update_available"
-#, fuzzy
-msgid "A script update is available."
-msgstr "Update untuk skrip tersedia."
-
-# "update_complete"
-#, fuzzy
-msgid "Update check completed successfully."
-msgstr "Update cek selesai dengan sukses."
-
-# "update_created"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% created".
-#, fuzzy
-msgid "created"
-msgstr "dibuat"
-
-# "update_deleted"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% deleted".
-#, fuzzy
-msgid "deleted"
-msgstr "dihapus"
-
-# "update_err1"
-#, fuzzy
-msgid "Failed to update: 'update.dat' missing. Reinstall or update manually."
-msgstr "Gagal memperbarui: 'update.dat' yang hilang. Menginstal lagi atau memperbarui secara manual."
-
-# "update_err2"
-#, fuzzy
-msgid "Failed to update: 'update.dat' does not contain any valid update sources. Please update manually."
-msgstr "Gagal memperbarui: 'update.dat' tidak mengandung sumber pembaruan yang valid. Saya sarankan untuk memperbarui secara manual."
-
-# "update_err3"
-#, fuzzy
-msgid "Possible hack or forgery detected in the update instructions supplied by the update source; Source may possibly be compromised. Please notify the script author. Updating manually is recommended."
-msgstr "Kemungkinan hack atau pemalsuan terdeteksi dalam petunjuk pembaruan yang diberikan oleh sumber pembaruan; Sumber mungkin dapat dikompromikan. Harap memberitahu penulis skrip. Saya sarankan untuk memperbarui secara manual."
-
-# "update_err4"
-#, fuzzy
-msgid "Missing checksum!"
-msgstr "Checksum yang hilang!"
-
-# "update_err5"
-#, fuzzy
-msgid "Missing data!"
-msgstr "Data yang hilang!"
-
-# "update_err6"
-#, fuzzy
-msgid "Bad data!"
-msgstr "Data yang buruk!"
-
-# "update_err7"
-#, fuzzy
-msgid "Bad checksum!"
-msgstr "Checksum yang buruk!"
-
-# "update_failed"
-#, fuzzy
-msgid "Failed."
-msgstr "Gagal."
-
-# "update_fetch"
-#, fuzzy
-msgid "Attempting to fetch version data from"
-msgstr "Mencoba untuk mengambil versi data dari"
-
-# "update_lock_detected"
-#, fuzzy
-msgid "Update lock detected: Can't continue. Check for corrupt updates or try again later."
-msgstr "Mengunci memperbarui terdeteksi: Tidak dapat dilanjutkan. Memeriksa pembaruan korup atau coba lagi nanti."
-
-# "update_not"
-# Used with "created", "deleted" and "patched" to negate them. Only translate the "NOT", don't remove the "{x}". Rendered like "%FILENAME% NOT created", "%FILENAME% NOT deleted", "%FILENAME% NOT patched".
-#, fuzzy
-msgid "NOT {x}"
-msgstr "TIDAK {x}"
-
-# "update_not_available"
-#, fuzzy
-msgid "No script update is available at this time."
-msgstr "Skrip update yang tidak tersedia saat ini."
-
-# "update_not_possible"
-#, fuzzy
-msgid "A script update is available, but can't be fully updated with this version of the update script. Please update manually."
-msgstr "Skrip update yang tersedia, tetapi tidak dapat sepenuhnya diupdate dengan ini update skrip versi. Silahkan update secara manual."
-
-# "update_no_source"
-#, fuzzy
-msgid "phpMussel has failed to update itself because it could not connect to a valid update source. Updating manually is recommended."
-msgstr "phpMussel gagal untuk sendiri update karena tidak bisa terhubung ke valid update sumber. Update secara manual dianjurkan."
-
-# "update_patched"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% patched".
-#, fuzzy
-msgid "patched"
-msgstr "ditambal"
-
-# "update_scriptfile_missing"
-#, fuzzy
-msgid " Update script file missing! Please reinstall phpMussel."
-msgstr " Perbarui file script hilang! Silakan instal ulang phpMussel."
-
-# "update_seconds_elapsed"
-# Rendered alongside integer second timers, eg, "5 seconds elapsed".
-#, fuzzy
-msgid " seconds elapsed"
-msgstr " detik berlalu"
-
-# "update_signatures_available"
-#, fuzzy
-msgid "A signatures update is available."
-msgstr "Tanda tangan yang tersedia."
-
-# "update_signatures_latest"
-#, fuzzy
-msgid "LATEST SIGNATURES"
-msgstr "TERAKHIR TANDA TANGAN"
-
-# "update_signatures_not_available"
-#, fuzzy
-msgid "No signatures update is available at this time."
-msgstr "Tanda tangan update yang tidak tersedia saat ini."
-
-# "update_signatures_yours"
-#, fuzzy
-msgid "YOUR SIGNATURES"
-msgstr "TANDA TANGAN ANDA"
-
-# "update_success"
-#, fuzzy
-msgid "Success."
-msgstr "Sukses."
-
-# "update_successfully"
-#, fuzzy
-msgid " successfully"
-msgstr " yang sukses"
-
-# "update_version_latest"
-#, fuzzy
-msgid "LATEST SCRIPT VERSION"
-msgstr "TERAKHIR SKRIPT VERSI"
-
-# "update_version_yours"
-#, fuzzy
-msgid "YOUR SCRIPT VERSION"
-msgstr "SKRIPT VERSI ANDA"
-
-# "update_was"
-# Used with "created", "deleted" and "patched" to affirm them ({x} will be substituted with one of those words by the program; don't remove it). Useful for languages that make use of a specific particle or word to affirm a verb which is separate from its negative (or "NOT") form (such as Japanese, for example). Because we don't use this in English (the source language), only the {x} exists. You won't need to translate this if your language also doesn't use this.
-#, fuzzy
-msgid "{x}"
-msgstr "{x}"
-
-# "update_wrd1"
-#, fuzzy
-msgid "signatures"
-msgstr "tanda tangan"
 
 # "upload_error_1"
 #, fuzzy

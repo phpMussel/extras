@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Project-Id-Version: phpMussel v0.9.2\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
 
 # "bad_command"
 #, fuzzy
@@ -51,11 +51,6 @@ msgstr "Non è un PE file valida!"
 #, fuzzy
 msgid "PE Sections:"
 msgstr "PE Sezioni:"
-
-# "cli_update_restart"
-#, fuzzy
-msgid " Restarting phpMussel may be required before updates become apparent."
-msgstr " Può essere necessario riavviare phpMussel prima che gli aggiornamenti\n diventino effettivi."
 
 # "cli_working"
 #, fuzzy
@@ -319,172 +314,6 @@ msgstr "Iniziato"
 #, fuzzy
 msgid "Too many URLs"
 msgstr "Troppi URL"
-
-# "update_"
-#, fuzzy
-msgid "phpMussel will now attempt to update itself."
-msgstr "phpMussel tenterà di aggiornarsi adesso."
-
-# "update_available"
-#, fuzzy
-msgid "A script update is available."
-msgstr "Un aggiornamento del programma è disponibile."
-
-# "update_complete"
-#, fuzzy
-msgid "Update check completed successfully."
-msgstr "Verifica dell'aggiornamento completata con successo."
-
-# "update_created"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% created".
-#, fuzzy
-msgid "created"
-msgstr "creato"
-
-# "update_deleted"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% deleted".
-#, fuzzy
-msgid "deleted"
-msgstr "cancellato"
-
-# "update_err1"
-#, fuzzy
-msgid "Failed to update: 'update.dat' missing. Reinstall or update manually."
-msgstr "Aggiornamento non riuscito: 'update.dat' mancante. Reinstallare o aggiornare manualmente."
-
-# "update_err2"
-#, fuzzy
-msgid "Failed to update: 'update.dat' does not contain any valid update sources. Please update manually."
-msgstr "Aggiornamento non riuscito: 'update.dat' non contiene nessuna valida sorgente per l'aggiornamento. Si prega di aggiornare manualmente."
-
-# "update_err3"
-#, fuzzy
-msgid "Possible hack or forgery detected in the update instructions supplied by the update source; Source may possibly be compromised. Please notify the script author. Updating manually is recommended."
-msgstr "Rilevata una possibile manipolazione malevola delle istruzioni di aggiornamento fornite dalla sorgente di aggiornamento; la sorgente è probabilmente compromessa. Si prega di avvisare l'autore del programma. È consigliato aggiornare manualmente."
-
-# "update_err4"
-#, fuzzy
-msgid "Missing checksum!"
-msgstr "Checksum mancanti!"
-
-# "update_err5"
-#, fuzzy
-msgid "Missing data!"
-msgstr "Dati mancanti!"
-
-# "update_err6"
-#, fuzzy
-msgid "Bad data!"
-msgstr "Dati errati!"
-
-# "update_err7"
-#, fuzzy
-msgid "Bad checksum!"
-msgstr "Checksum errati!"
-
-# "update_failed"
-#, fuzzy
-msgid "Failed."
-msgstr "Fallito."
-
-# "update_fetch"
-#, fuzzy
-msgid "Attempting to fetch version data from"
-msgstr "Tentativo di ottenere i dati della versione da"
-
-# "update_lock_detected"
-#, fuzzy
-msgid "Update lock detected: Can't continue. Check for corrupt updates or try again later."
-msgstr "Blocco di aggiornamento rilevato: Impossibile di continuare. Controlla per aggiornamenti corrotti o riprova più tardi."
-
-# "update_not"
-# Used with "created", "deleted" and "patched" to negate them. Only translate the "NOT", don't remove the "{x}". Rendered like "%FILENAME% NOT created", "%FILENAME% NOT deleted", "%FILENAME% NOT patched".
-#, fuzzy
-msgid "NOT {x}"
-msgstr "NON {x}"
-
-# "update_not_available"
-#, fuzzy
-msgid "No script update is available at this time."
-msgstr "Nessun aggiornamento del programma è disponibile in questo momento."
-
-# "update_not_possible"
-#, fuzzy
-msgid "A script update is available, but can't be fully updated with this version of the update script. Please update manually."
-msgstr "Un aggiornamento del programma è disponibile, ma non è possibile l'aggiornamento completo con questa versione del programma di aggornamento. Si prega di aggiornare manualmente."
-
-# "update_no_source"
-#, fuzzy
-msgid "phpMussel has failed to update itself because it could not connect to a valid update source. Updating manually is recommended."
-msgstr "phpMussel non è riuscito ad aggiornarsi perché non poteva connettersi ad una valida sorgente di aggiornamenti. È consigliato aggiornare manualmente."
-
-# "update_patched"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% patched".
-#, fuzzy
-msgid "patched"
-msgstr "patchato"
-
-# "update_scriptfile_missing"
-#, fuzzy
-msgid " Update script file missing! Please reinstall phpMussel."
-msgstr " Il file dell'aggiornamento del programma è mancante! Reinstalla phpMussel."
-
-# "update_seconds_elapsed"
-# Rendered alongside integer second timers, eg, "5 seconds elapsed".
-#, fuzzy
-msgid " seconds elapsed"
-msgstr " secondi trascorsi"
-
-# "update_signatures_available"
-#, fuzzy
-msgid "A signatures update is available."
-msgstr "Un aggiornamento delle firme è disponibile."
-
-# "update_signatures_latest"
-#, fuzzy
-msgid "LATEST SIGNATURES"
-msgstr "ULTIME FIRME"
-
-# "update_signatures_not_available"
-#, fuzzy
-msgid "No signatures update is available at this time."
-msgstr "Nessun aggiornamento delle firme è disponibile in questo momento."
-
-# "update_signatures_yours"
-#, fuzzy
-msgid "YOUR SIGNATURES"
-msgstr "TUE FIRME"
-
-# "update_success"
-#, fuzzy
-msgid "Success."
-msgstr "Successo."
-
-# "update_successfully"
-#, fuzzy
-msgid " successfully"
-msgstr " con successo"
-
-# "update_version_latest"
-#, fuzzy
-msgid "LATEST SCRIPT VERSION"
-msgstr "ULTIMA VERSIONE DEL PROGRAMMA"
-
-# "update_version_yours"
-#, fuzzy
-msgid "YOUR SCRIPT VERSION"
-msgstr "TUA VERSIONE DEL PROGRAMMA"
-
-# "update_was"
-# Used with "created", "deleted" and "patched" to affirm them ({x} will be substituted with one of those words by the program; don't remove it). Useful for languages that make use of a specific particle or word to affirm a verb which is separate from its negative (or "NOT") form (such as Japanese, for example). Because we don't use this in English (the source language), only the {x} exists. You won't need to translate this if your language also doesn't use this.
-#, fuzzy
-msgid "{x}"
-msgstr "{x}"
-
-# "update_wrd1"
-#, fuzzy
-msgid "signatures"
-msgstr "firme"
 
 # "upload_error_1"
 #, fuzzy

@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Project-Id-Version: phpMussel v0.9.2\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
 
 # "bad_command"
 #, fuzzy
@@ -51,11 +51,6 @@ msgstr "正しいPEファイルではありません！"
 #, fuzzy
 msgid "PE Sections:"
 msgstr "PEセクション："
-
-# "cli_update_restart"
-#, fuzzy
-msgid " Restarting phpMussel may be required before updates become apparent."
-msgstr " アップデートを有効にするためにはphpMusselを再スタートする必要があるかもしれません。"
 
 # "cli_working"
 #, fuzzy
@@ -319,172 +314,6 @@ msgstr "開始しています"
 #, fuzzy
 msgid "Too many URLs"
 msgstr "URLが多すぎます"
-
-# "update_"
-#, fuzzy
-msgid "phpMussel will now attempt to update itself."
-msgstr "phpMusselは自動アップデート中です。"
-
-# "update_available"
-#, fuzzy
-msgid "A script update is available."
-msgstr "スクリプトのアップデートが可能です。"
-
-# "update_complete"
-#, fuzzy
-msgid "Update check completed successfully."
-msgstr "アップデートのチェックが完了しました。"
-
-# "update_created"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% created".
-#, fuzzy
-msgid "created"
-msgstr "作成"
-
-# "update_deleted"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% deleted".
-#, fuzzy
-msgid "deleted"
-msgstr "消去"
-
-# "update_err1"
-#, fuzzy
-msgid "Failed to update: 'update.dat' missing. Reinstall or update manually."
-msgstr "アップデート失敗： \'update.dat\'がありません。手動で再インストールして下さい。"
-
-# "update_err2"
-#, fuzzy
-msgid "Failed to update: 'update.dat' does not contain any valid update sources. Please update manually."
-msgstr "アップデート失敗： \'update.dat\'に有効なアップデートソースがありません。手動で再インストールして下さい。"
-
-# "update_err3"
-#, fuzzy
-msgid "Possible hack or forgery detected in the update instructions supplied by the update source; Source may possibly be compromised. Please notify the script author. Updating manually is recommended."
-msgstr "アップデート元が提供するアップデート指示がハックされたか偽造された疑いがあります。ソースがウィルス感染している恐れがあります。スクリプト作成者に連絡して下さい。手動でのアップデートを推奨します。"
-
-# "update_err4"
-#, fuzzy
-msgid "Missing checksum!"
-msgstr "チェックサムがありません！"
-
-# "update_err5"
-#, fuzzy
-msgid "Missing data!"
-msgstr "データがありません！"
-
-# "update_err6"
-#, fuzzy
-msgid "Bad data!"
-msgstr "不正データです！"
-
-# "update_err7"
-#, fuzzy
-msgid "Bad checksum!"
-msgstr "不正チェックサムです！"
-
-# "update_failed"
-#, fuzzy
-msgid "Failed."
-msgstr "失敗しました。"
-
-# "update_fetch"
-#, fuzzy
-msgid "Attempting to fetch version data from"
-msgstr "{Location}からバージョン情報の取得を試みています。。。"
-
-# "update_lock_detected"
-#, fuzzy
-msgid "Update lock detected: Can't continue. Check for corrupt updates or try again later."
-msgstr "アップデートロックが検出されたため、継続できません。破損したアップデートがないかチェックし、再度試みて下さい。"
-
-# "update_not"
-# Used with "created", "deleted" and "patched" to negate them. Only translate the "NOT", don't remove the "{x}". Rendered like "%FILENAME% NOT created", "%FILENAME% NOT deleted", "%FILENAME% NOT patched".
-#, fuzzy
-msgid "NOT {x}"
-msgstr "{x}に失敗しました"
-
-# "update_not_available"
-#, fuzzy
-msgid "No script update is available at this time."
-msgstr "アップデート可能なスクリプトはありません。"
-
-# "update_not_possible"
-#, fuzzy
-msgid "A script update is available, but can't be fully updated with this version of the update script. Please update manually."
-msgstr "アップデート可能なスクリプトがありますが、このバージョンでは完全にはできません。手動でアップデートして下さい。"
-
-# "update_no_source"
-#, fuzzy
-msgid "phpMussel has failed to update itself because it could not connect to a valid update source. Updating manually is recommended."
-msgstr "有効なアップデートソースに接続できなかったため、phpMusselは自動アップデートに失敗しました。手動でのアップデートを推奨します。"
-
-# "update_patched"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% patched".
-#, fuzzy
-msgid "patched"
-msgstr "パッチ"
-
-# "update_scriptfile_missing"
-#, fuzzy
-msgid " Update script file missing! Please reinstall phpMussel."
-msgstr " アップデートスクリプトファイルがありません。phpMusselを再インストールして下さい。"
-
-# "update_seconds_elapsed"
-# Rendered alongside integer second timers, eg, "5 seconds elapsed".
-#, fuzzy
-msgid " seconds elapsed"
-msgstr "秒経過"
-
-# "update_signatures_available"
-#, fuzzy
-msgid "A signatures update is available."
-msgstr "署名アップデートが可能です。"
-
-# "update_signatures_latest"
-#, fuzzy
-msgid "LATEST SIGNATURES"
-msgstr "署名最新版"
-
-# "update_signatures_not_available"
-#, fuzzy
-msgid "No signatures update is available at this time."
-msgstr "現在署名アップデートはできません。"
-
-# "update_signatures_yours"
-#, fuzzy
-msgid "YOUR SIGNATURES"
-msgstr "あなたの署名"
-
-# "update_success"
-#, fuzzy
-msgid "Success."
-msgstr "成功です。"
-
-# "update_successfully"
-#, fuzzy
-msgid " successfully"
-msgstr "　問題なく"
-
-# "update_version_latest"
-#, fuzzy
-msgid "LATEST SCRIPT VERSION"
-msgstr "最新スクリプトバージョン"
-
-# "update_version_yours"
-#, fuzzy
-msgid "YOUR SCRIPT VERSION"
-msgstr "あなたのスクリプトバージョン"
-
-# "update_was"
-# Used with "created", "deleted" and "patched" to affirm them ({x} will be substituted with one of those words by the program; don't remove it). Useful for languages that make use of a specific particle or word to affirm a verb which is separate from its negative (or "NOT") form (such as Japanese, for example). Because we don't use this in English (the source language), only the {x} exists. You won't need to translate this if your language also doesn't use this.
-#, fuzzy
-msgid "{x}"
-msgstr "{x}しました"
-
-# "update_wrd1"
-#, fuzzy
-msgid "signatures"
-msgstr "署名"
 
 # "upload_error_1"
 #, fuzzy

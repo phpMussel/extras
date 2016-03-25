@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ar\n"
-"Project-Id-Version: phpMussel v0.9.2\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
 
 # "bad_command"
 #, fuzzy
@@ -50,11 +50,6 @@ msgstr ""
 # "cli_pe2"
 #, fuzzy
 msgid "PE Sections:"
-msgstr ""
-
-# "cli_update_restart"
-#, fuzzy
-msgid " Restarting phpMussel may be required before updates become apparent."
 msgstr ""
 
 # "cli_working"
@@ -318,172 +313,6 @@ msgstr ""
 # "too_many_urls"
 #, fuzzy
 msgid "Too many URLs"
-msgstr ""
-
-# "update_"
-#, fuzzy
-msgid "phpMussel will now attempt to update itself."
-msgstr ""
-
-# "update_available"
-#, fuzzy
-msgid "A script update is available."
-msgstr ""
-
-# "update_complete"
-#, fuzzy
-msgid "Update check completed successfully."
-msgstr ""
-
-# "update_created"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% created".
-#, fuzzy
-msgid "created"
-msgstr ""
-
-# "update_deleted"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% deleted".
-#, fuzzy
-msgid "deleted"
-msgstr ""
-
-# "update_err1"
-#, fuzzy
-msgid "Failed to update: 'update.dat' missing. Reinstall or update manually."
-msgstr ""
-
-# "update_err2"
-#, fuzzy
-msgid "Failed to update: 'update.dat' does not contain any valid update sources. Please update manually."
-msgstr ""
-
-# "update_err3"
-#, fuzzy
-msgid "Possible hack or forgery detected in the update instructions supplied by the update source; Source may possibly be compromised. Please notify the script author. Updating manually is recommended."
-msgstr ""
-
-# "update_err4"
-#, fuzzy
-msgid "Missing checksum!"
-msgstr ""
-
-# "update_err5"
-#, fuzzy
-msgid "Missing data!"
-msgstr ""
-
-# "update_err6"
-#, fuzzy
-msgid "Bad data!"
-msgstr ""
-
-# "update_err7"
-#, fuzzy
-msgid "Bad checksum!"
-msgstr ""
-
-# "update_failed"
-#, fuzzy
-msgid "Failed."
-msgstr ""
-
-# "update_fetch"
-#, fuzzy
-msgid "Attempting to fetch version data from"
-msgstr ""
-
-# "update_lock_detected"
-#, fuzzy
-msgid "Update lock detected: Can't continue. Check for corrupt updates or try again later."
-msgstr ""
-
-# "update_not"
-# Used with "created", "deleted" and "patched" to negate them. Only translate the "NOT", don't remove the "{x}". Rendered like "%FILENAME% NOT created", "%FILENAME% NOT deleted", "%FILENAME% NOT patched".
-#, fuzzy
-msgid "NOT {x}"
-msgstr ""
-
-# "update_not_available"
-#, fuzzy
-msgid "No script update is available at this time."
-msgstr ""
-
-# "update_not_possible"
-#, fuzzy
-msgid "A script update is available, but can't be fully updated with this version of the update script. Please update manually."
-msgstr ""
-
-# "update_no_source"
-#, fuzzy
-msgid "phpMussel has failed to update itself because it could not connect to a valid update source. Updating manually is recommended."
-msgstr ""
-
-# "update_patched"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% patched".
-#, fuzzy
-msgid "patched"
-msgstr ""
-
-# "update_scriptfile_missing"
-#, fuzzy
-msgid " Update script file missing! Please reinstall phpMussel."
-msgstr ""
-
-# "update_seconds_elapsed"
-# Rendered alongside integer second timers, eg, "5 seconds elapsed".
-#, fuzzy
-msgid " seconds elapsed"
-msgstr ""
-
-# "update_signatures_available"
-#, fuzzy
-msgid "A signatures update is available."
-msgstr ""
-
-# "update_signatures_latest"
-#, fuzzy
-msgid "LATEST SIGNATURES"
-msgstr ""
-
-# "update_signatures_not_available"
-#, fuzzy
-msgid "No signatures update is available at this time."
-msgstr ""
-
-# "update_signatures_yours"
-#, fuzzy
-msgid "YOUR SIGNATURES"
-msgstr ""
-
-# "update_success"
-#, fuzzy
-msgid "Success."
-msgstr ""
-
-# "update_successfully"
-#, fuzzy
-msgid " successfully"
-msgstr ""
-
-# "update_version_latest"
-#, fuzzy
-msgid "LATEST SCRIPT VERSION"
-msgstr ""
-
-# "update_version_yours"
-#, fuzzy
-msgid "YOUR SCRIPT VERSION"
-msgstr ""
-
-# "update_was"
-# Used with "created", "deleted" and "patched" to affirm them ({x} will be substituted with one of those words by the program; don't remove it). Useful for languages that make use of a specific particle or word to affirm a verb which is separate from its negative (or "NOT") form (such as Japanese, for example). Because we don't use this in English (the source language), only the {x} exists. You won't need to translate this if your language also doesn't use this.
-#, fuzzy
-msgid "{x}"
-msgstr ""
-
-# "update_wrd1"
-#, fuzzy
-msgid "signatures"
 msgstr ""
 
 # "upload_error_1"

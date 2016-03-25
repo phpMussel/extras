@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"Project-Id-Version: phpMussel v0.9.2\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
 
 # "bad_command"
 msgid "I don't understand that command, sorry."
@@ -44,11 +44,6 @@ msgstr "Keine gültige PE-Datei!"
 msgid "PE Sections:"
 msgstr "PE-Sektionen:"
 
-# "cli_update_restart"
-msgid " Restarting phpMussel may be required before updates become apparent."
-msgstr " phpMussel muss neu gestartet werden, damit die Aktualisierungen wirksam werden."
-
-# "cli_working"
 msgid "In progress"
 msgstr "Im Gange"
 
@@ -260,137 +255,42 @@ msgstr "Gestartet"
 msgid "Too many URLs"
 msgstr "Zu viele URLs"
 
-# "update_"
-msgid "phpMussel will now attempt to update itself."
-msgstr "phpMussel wird nun versuchen, sich zu aktualisieren."
-
-# "update_available"
 msgid "A script update is available."
 msgstr "Ein Script-Update ist verfügbar."
 
-# "update_complete"
-msgid "Update check completed successfully."
-msgstr "Update-Prüfung erfolgreich abgeschlossen."
-
-# "update_created"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% created".
-msgid "created"
-msgstr "erstellt"
-
-# "update_deleted"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% deleted".
-msgid "deleted"
-msgstr "gelöscht"
-
-# "update_err1"
 msgid "Failed to update: 'update.dat' missing. Reinstall or update manually."
 msgstr "Nicht aktualisiert: 'update.dat' fehlt. Erneut installieren oder manuell aktualisieren."
 
-# "update_err2"
-msgid "Failed to update: 'update.dat' does not contain any valid update sources. Please update manually."
-msgstr "Nicht aktualisiert: 'update.dat' keine gültigen Update-Quellen enthalten. Bitte aktualisieren Sie manuell."
-
-# "update_err3"
 msgid "Possible hack or forgery detected in the update instructions supplied by the update source; Source may possibly be compromised. Please notify the script author. Updating manually is recommended."
 msgstr "Möglicher Hack oder Fälschung in den von der Update-Quelle angebotenen Update-Anweisungen erkannt; Quelle wurde möglicherweise beeinträchtigt. Bitte benachrichtigen Sie den Skript-Autor. Manuelle Aktualisierung wird empfohlen."
 
-# "update_err4"
-msgid "Missing checksum!"
-msgstr "Checksumme fehlt!"
-
-# "update_err5"
 msgid "Missing data!"
 msgstr "Daten fehlen!"
 
-# "update_err6"
-msgid "Bad data!"
-msgstr "Daten beschädigt!"
-
-# "update_err7"
 msgid "Bad checksum!"
 msgstr "Checksumme beschädigt!"
 
-# "update_failed"
-msgid "Failed."
-msgstr "Gescheitert."
-
-# "update_fetch"
 msgid "Attempting to fetch version data from"
 msgstr "Abrufen von Versionsdaten aus"
 
-# "update_lock_detected"
-msgid "Update lock detected: Can't continue. Check for corrupt updates or try again later."
-msgstr "Update-Sperrung entdeckt: Kann nicht fortfahren. Prüf auf fehlerhafte Updates oder versuch es später nochmal."
-
-# "update_not"
-# Used with "created", "deleted" and "patched" to negate them. Only translate the "NOT", don't remove the "{x}". Rendered like "%FILENAME% NOT created", "%FILENAME% NOT deleted", "%FILENAME% NOT patched".
-msgid "NOT {x}"
-msgstr "NICHT {x}"
-
-# "update_not_available"
 msgid "No script update is available at this time."
 msgstr "Es steht zur Zeit kein Script-Update zur Verfügung."
 
-# "update_not_possible"
-msgid "A script update is available, but can't be fully updated with this version of the update script. Please update manually."
-msgstr "Ein Script-Update ist verfügbar, kann aber nicht vollständig mit dieser Version des Update-Scripts aktualisiert werden. Bitte aktualisieren Sie manuell."
-
-# "update_no_source"
 msgid "phpMussel has failed to update itself because it could not connect to a valid update source. Updating manually is recommended."
 msgstr "phpMussel konnte nicht aktualisiert werden, da es sich nicht zu einer gültigen Update-Quelle verbinden konnte. Manuelles Update wird empfohlen."
 
-# "update_patched"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% patched".
-msgid "patched"
-msgstr "gepatcht"
-
-# "update_scriptfile_missing"
-msgid " Update script file missing! Please reinstall phpMussel."
-msgstr " Update-Script fehlt! Bitte installieren Sie phpMussel erneut."
-
-# "update_seconds_elapsed"
-# Rendered alongside integer second timers, eg, "5 seconds elapsed".
-msgid " seconds elapsed"
-msgstr " Sekunden verstrichen"
-
-# "update_signatures_available"
 msgid "A signatures update is available."
 msgstr "Ein Signaturenupdate ist verfügbar."
 
-# "update_signatures_latest"
-msgid "LATEST SIGNATURES"
-msgstr "AKTUELLE SIGNATUREN"
-
-# "update_signatures_not_available"
 msgid "No signatures update is available at this time."
 msgstr "Es steht zur Zeit kein Signaturenupdate zur Verfügung."
 
-# "update_signatures_yours"
-msgid "YOUR SIGNATURES"
-msgstr "IHRE SIGNATUREN"
-
-# "update_success"
 msgid "Success."
 msgstr "Erfolgreich."
 
-# "update_successfully"
-msgid " successfully"
-msgstr " erfolgreich"
-
-# "update_version_latest"
 msgid "LATEST SCRIPT VERSION"
 msgstr "AKTUELLE SCRIPT VERSION"
 
-# "update_version_yours"
-msgid "YOUR SCRIPT VERSION"
-msgstr "IHRE SCRIPT VERSION"
-
-# "update_was"
-# Used with "created", "deleted" and "patched" to affirm them ({x} will be substituted with one of those words by the program; don't remove it). Useful for languages that make use of a specific particle or word to affirm a verb which is separate from its negative (or "NOT") form (such as Japanese, for example). Because we don't use this in English (the source language), only the {x} exists. You won't need to translate this if your language also doesn't use this.
-msgid "{x}"
-msgstr "{x}"
-
-# "update_wrd1"
 msgid "signatures"
 msgstr "Signaturen"
 

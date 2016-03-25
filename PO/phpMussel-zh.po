@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh\n"
-"Project-Id-Version: phpMussel v0.9.2\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
 
 # "bad_command"
 #, fuzzy
@@ -51,11 +51,6 @@ msgstr "不PE文件！"
 #, fuzzy
 msgid "PE Sections:"
 msgstr "PE部分:"
-
-# "cli_update_restart"
-#, fuzzy
-msgid " Restarting phpMussel may be required before updates become apparent."
-msgstr " 重新启动phpMussel可能是需要之前的更新变得明显。"
 
 # "cli_working"
 #, fuzzy
@@ -320,172 +315,6 @@ msgstr "开始"
 #, fuzzy
 msgid "Too many URLs"
 msgstr "太多的URL"
-
-# "update_"
-#, fuzzy
-msgid "phpMussel will now attempt to update itself."
-msgstr "phpMussel现在将尝试进行自我更新。"
-
-# "update_available"
-#, fuzzy
-msgid "A script update is available."
-msgstr "编程更新可用。"
-
-# "update_complete"
-#, fuzzy
-msgid "Update check completed successfully."
-msgstr "更新检查成功完成。"
-
-# "update_created"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% created".
-#, fuzzy
-msgid "created"
-msgstr "创建"
-
-# "update_deleted"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% deleted".
-#, fuzzy
-msgid "deleted"
-msgstr "删除"
-
-# "update_err1"
-#, fuzzy
-msgid "Failed to update: 'update.dat' missing. Reinstall or update manually."
-msgstr "更新失败：“update.dat”失踪。重新安装或手动更新。"
-
-# "update_err2"
-#, fuzzy
-msgid "Failed to update: 'update.dat' does not contain any valid update sources. Please update manually."
-msgstr "更新失败：“update.dat”不包含任何有效的更新源。请手动更新。"
-
-# "update_err3"
-#, fuzzy
-msgid "Possible hack or forgery detected in the update instructions supplied by the update source; Source may possibly be compromised. Please notify the script author. Updating manually is recommended."
-msgstr "潜力黑客或伪造品是检测在更新命令提供通过更新来源；源可能是妥协。请通知编程作者。手动更新是推荐。"
-
-# "update_err4"
-#, fuzzy
-msgid "Missing checksum!"
-msgstr "哈希码失踪！"
-
-# "update_err5"
-#, fuzzy
-msgid "Missing data!"
-msgstr "数据失踪！"
-
-# "update_err6"
-#, fuzzy
-msgid "Bad data!"
-msgstr "数据损坏！"
-
-# "update_err7"
-#, fuzzy
-msgid "Bad checksum!"
-msgstr "哈希码损坏！"
-
-# "update_failed"
-#, fuzzy
-msgid "Failed."
-msgstr "失败。"
-
-# "update_fetch"
-#, fuzzy
-msgid "Attempting to fetch version data from"
-msgstr "试图获取版本数据从"
-
-# "update_lock_detected"
-#, fuzzy
-msgid "Update lock detected: Can't continue. Check for corrupt updates or try again later."
-msgstr "更新锁检测：无法继续。检查是否有损坏的更新或稍后再试。"
-
-# "update_not"
-# Used with "created", "deleted" and "patched" to negate them. Only translate the "NOT", don't remove the "{x}". Rendered like "%FILENAME% NOT created", "%FILENAME% NOT deleted", "%FILENAME% NOT patched".
-#, fuzzy
-msgid "NOT {x}"
-msgstr "不{x}"
-
-# "update_not_available"
-#, fuzzy
-msgid "No script update is available at this time."
-msgstr "没有可用编程更新这个时。"
-
-# "update_not_possible"
-#, fuzzy
-msgid "A script update is available, but can't be fully updated with this version of the update script. Please update manually."
-msgstr "编程更新是可用的，但它不能完全更新使用此版本的更新编程。请手动更新。"
-
-# "update_no_source"
-#, fuzzy
-msgid "phpMussel has failed to update itself because it could not connect to a valid update source. Updating manually is recommended."
-msgstr "phpMussel失败自我更新因为无法连接至有效的更新源。手动更新是推荐。"
-
-# "update_patched"
-# Rendered alongside filenames to declare the state of the file, eg, "%FILENAME% patched".
-#, fuzzy
-msgid "patched"
-msgstr "修订"
-
-# "update_scriptfile_missing"
-#, fuzzy
-msgid " Update script file missing! Please reinstall phpMussel."
-msgstr "更新编程文件是失踪！请重新安装phpMussel。"
-
-# "update_seconds_elapsed"
-# Rendered alongside integer second timers, eg, "5 seconds elapsed".
-#, fuzzy
-msgid " seconds elapsed"
-msgstr "秒过去"
-
-# "update_signatures_available"
-#, fuzzy
-msgid "A signatures update is available."
-msgstr "签名更新是可用的。"
-
-# "update_signatures_latest"
-#, fuzzy
-msgid "LATEST SIGNATURES"
-msgstr "最新签名"
-
-# "update_signatures_not_available"
-#, fuzzy
-msgid "No signatures update is available at this time."
-msgstr "没有签名更新可用这个时。"
-
-# "update_signatures_yours"
-#, fuzzy
-msgid "YOUR SIGNATURES"
-msgstr "您的签名"
-
-# "update_success"
-#, fuzzy
-msgid "Success."
-msgstr "成功了。"
-
-# "update_successfully"
-#, fuzzy
-msgid " successfully"
-msgstr "成功了"
-
-# "update_version_latest"
-#, fuzzy
-msgid "LATEST SCRIPT VERSION"
-msgstr "最新编程版本"
-
-# "update_version_yours"
-#, fuzzy
-msgid "YOUR SCRIPT VERSION"
-msgstr "您的编程版本"
-
-# "update_was"
-# Used with "created", "deleted" and "patched" to affirm them ({x} will be substituted with one of those words by the program; don't remove it). Useful for languages that make use of a specific particle or word to affirm a verb which is separate from its negative (or "NOT") form (such as Japanese, for example). Because we don't use this in English (the source language), only the {x} exists. You won't need to translate this if your language also doesn't use this.
-#, fuzzy
-msgid "{x}"
-msgstr "是{x}"
-
-# "update_wrd1"
-#, fuzzy
-msgid "signatures"
-msgstr "签名"
 
 # "upload_error_1"
 #, fuzzy
