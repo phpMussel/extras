@@ -1,0 +1,233 @@
+# phpMussel language data
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.zh-TW.inc
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-zh-TW.po
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-TW\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
+
+msgid "bad_command"
+msgstr "我不明白的命令，對不起。"
+
+msgid "cli_failed_to_complete"
+msgstr "完成掃描過程失敗"
+
+msgid "cli_is_not_a"
+msgstr "不是文件或文件夾。"
+
+msgid "cli_ln2"
+msgstr "謝謝對於使用phpMussel，一個PHP腳本旨在檢測木馬，病毒，惡意軟件，和其他威脅在文件上傳到您的系統隨地這個腳本是叫，根據ClamAV的簽名和其他簽名。\n\n PHPMUSSEL版權2013和此後GNU/GPLv.2通過Caleb M （Maikuolan）。\n\n                                     ~ ~ ~\n\n"
+
+msgid "cli_ln3"
+msgstr " 目前經營phpMussel在CLI模式（命令行界面）。\n\n 掃描一個文件或文件夾，鍵入“scan”，其次是名的文件或文件夾您想phpMussel掃描然後按Enter鍵；\n 鍵入“c”然後按Enter鍵對於CLI模式命令名單；鍵入“q”然後按Enter鍵對於戒菸："
+
+msgid "cli_pe1"
+msgstr "不PE文件！"
+
+msgid "cli_pe2"
+msgstr "PE部分:"
+
+msgid "cli_working"
+msgstr "進行中"
+
+msgid "controls_lockout"
+msgstr "phpMussel控制閉鎖是啟用。"
+
+msgid "core_scriptfile_missing"
+msgstr "核心文件是丟失！請重新安裝phpMussel。"
+
+msgid "corrupted"
+msgstr "檢測損壞PE"
+
+msgid "denied"
+msgstr "上傳是否認！"
+
+msgid "denied_other"
+msgstr "Upload Denied! Téléchargement Refusé! Subida Denegada! Caricamento Negato! Upload verweigert! Upload Geweigerd! アップロード拒否! 上传是否认! Uppladda Nekas! Загрузка Отказана! Augšupielādēt Liegta! 업로드 거부! Sự tải lên đã bị từ chối!"
+
+msgid "denied_reason"
+msgstr "您的上傳被拒绝由于这些原因 / Your upload was blocked for the reasons listed below:"
+
+msgid "detected"
+msgstr "檢測{vn}"
+
+msgid "detected_control_characters"
+msgstr "檢測控製字符"
+
+msgid "encrypted_archive"
+msgstr "檢測加密檔案文件; 加密檔案文件不允許"
+
+msgid "failed_to_access"
+msgstr "無法訪問"
+
+msgid "file"
+msgstr "文件"
+
+msgid "filesize_limit_exceeded"
+msgstr "文件大小超過限制"
+
+msgid "filetype_blacklisted"
+msgstr "文件類型列入黑名單"
+
+msgid "finished"
+msgstr "完了"
+
+msgid "generated_by"
+msgstr "所產生通過"
+
+msgid "greylist_cleared"
+msgstr " 灰名單清空。"
+
+msgid "greylist_not_updated"
+msgstr " 灰名單不更新。"
+
+msgid "greylist_updated"
+msgstr " 灰名單更新。"
+
+msgid "image"
+msgstr "圖像"
+
+msgid "instance_already_active"
+msgstr "腳本已激活！請仔細檢查您的鉤子。"
+
+msgid "invalid_file"
+msgstr "無效的文件"
+
+msgid "invalid_url"
+msgstr "無效的網址！"
+
+msgid "ok"
+msgstr "好"
+
+msgid "only_allow_images"
+msgstr "上傳文件以外圖片不允許"
+
+msgid "phpmussel_disabled"
+msgstr "phpMussel關閉。"
+
+msgid "phpmussel_disabled_already"
+msgstr "phpMussel已關閉。"
+
+msgid "phpmussel_enabled"
+msgstr "phpMussel激活。"
+
+msgid "phpmussel_enabled_already"
+msgstr "phpMussel已激活。"
+
+msgid "plugins_directory_nonexistent"
+msgstr "插件文件夾不存在！"
+
+msgid "recursive"
+msgstr "遞歸深度超過是限制"
+
+msgid "required_variables_not_defined"
+msgstr "需要的變量是未定義：無法繼續。"
+
+msgid "scan_aborted"
+msgstr "掃描中止！"
+
+msgid "scan_chameleon"
+msgstr "{x}变色龙攻击检测"
+
+msgid "scan_checking"
+msgstr "檢查"
+
+msgid "scan_checking_contents"
+msgstr "成功了！在進行檢查的內容。"
+
+msgid "scan_command_injection"
+msgstr "命令注入嘗試檢測"
+
+msgid "scan_complete"
+msgstr "完成"
+
+msgid "scan_extensions_missing"
+msgstr "失败（失踪必需的扩展）！"
+
+msgid "scan_filename_manipulation_detected"
+msgstr "文件名操控檢測"
+
+msgid "scan_map_corrupted"
+msgstr "簽名地圖是損壞"
+
+msgid "scan_map_missing"
+msgstr "簽名地圖是失踪"
+
+msgid "scan_missing_filename"
+msgstr "文件名是失踪"
+
+msgid "scan_not_archive"
+msgstr "失敗（空或不是存檔）！"
+
+msgid "scan_no_problems_found"
+msgstr "沒有任何問題發現。"
+
+msgid "scan_reading"
+msgstr "閱讀"
+
+msgid "scan_signature_file_corrupted"
+msgstr "簽名文件是損壞"
+
+msgid "scan_signature_file_missing"
+msgstr "簽名文件是失踪"
+
+msgid "scan_tampering"
+msgstr "檢測潛在的危險文件篡改"
+
+msgid "scan_unauthorised_upload"
+msgstr "未經授權的文件上傳操控是檢測"
+
+msgid "scan_unauthorised_upload_or_misconfig"
+msgstr "未經授權的文件上傳操控或配置錯誤是檢測！"
+
+msgid "started"
+msgstr "開始"
+
+msgid "too_many_urls"
+msgstr "太多的URL"
+
+msgid "upload_error_1"
+msgstr "文件大小超過upload_max_filesize指令。"
+
+msgid "upload_error_2"
+msgstr "文件大小超过文件大小限制指定由文件上傳信息。"
+
+msgid "upload_error_34"
+msgstr "上傳失敗！請聯繫網站管理員或網站託管服務！"
+
+msgid "upload_error_6"
+msgstr "上傳文件夾是失踪！請聯繫網站管理員或網站託管服務！"
+
+msgid "upload_error_7"
+msgstr "硬盤寫入錯誤！請聯繫網站管理員或網站託管服務！"
+
+msgid "upload_error_8"
+msgstr "PHP配置錯誤是檢測！請聯繫網站管理員或網站託管服務！"
+
+msgid "upload_limit_exceeded"
+msgstr "超過上傳限制"
+
+msgid "wrong_password"
+msgstr "密碼錯誤；行動拒絕。"
+
+msgid "x_does_not_exist"
+msgstr "不存在"
+
+msgid "_exclamation"
+msgstr "！"
+
+msgid "_exclamation_final"
+msgstr "！"
+
+msgid "_fullstop"
+msgstr "。"
+
+msgid "_fullstop_final"
+msgstr "。"
+
+msgid "cli_commands"
+msgstr " q\n - 戒菸CLI模式。\n - 別名：quit，exit。\n md5_file\n - 生成MD5簽名從文件[語法：md5_file 文件名]。\n - 別名：m。\n md5\n - 生成MD5簽名從數據[語法：md5 數據]。\n hex_encode\n - 兌換從二進制數據至十六進制[語法：hex_encode 數據]。\n - 別名：x。\n hex_decode\n - 兌換從十六進制二進制數據至[語法：hex_decode 數據]。\n base64_encode\n - 兌換從二進制數據至基地64數據[語法：base64_encode 數據]。\n - 別名：b。\n base64_decode\n - 兌換從基地64數據至二進制數據[語法：base64_decode 數據]。\n scan\n - 掃描文件或文件夾[語法：scan 文件名]。\n - 別名：s。\n c\n - 打印此命令列表。\n"
+

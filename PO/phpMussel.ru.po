@@ -1,0 +1,233 @@
+# phpMussel language data
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.ru.inc
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-ru.po
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
+
+msgid "bad_command"
+msgstr "Извините, команда непонятна."
+
+msgid "cli_failed_to_complete"
+msgstr "Не удалось завершить процесс сканирования"
+
+msgid "cli_is_not_a"
+msgstr " не файл или каталог."
+
+msgid "cli_ln2"
+msgstr " Спасибо за использование phpMussel, PHP сценария предназначенного для обнаружения троянов, вирусов, вредоносных программ и других угроз для файлов загруженных в вашу систему, на основе подписей ClamAV и\n других.\n\n PHPMUSSEL АВТОРСКИЕ ПРАВА 2013 и позже GNU/GPLv2 от Caleb M (Maikuolan).\n\n                                     ~ ~ ~\n\n"
+
+msgid "cli_ln3"
+msgstr " В настоящее время phpMussel работает в CLI режиме (командной строки интерфейс).\n\n Для сканирования файла или каталога, введите 'scan', а затем имя файла или\n каталога который вы хотите просканировать, и нажмите Enter; Введите 'c' и нажмите\n Enter для списка CLI режима команды; Введите 'q' и нажмите Enter для\n окончания:"
+
+msgid "cli_pe1"
+msgstr "Не ПЭ Файл!"
+
+msgid "cli_pe2"
+msgstr "ПЭ Разделы:"
+
+msgid "cli_working"
+msgstr "В действии"
+
+msgid "controls_lockout"
+msgstr "phpMussel контроль блокировки активен."
+
+msgid "core_scriptfile_missing"
+msgstr "Файл основного сценария отсутствует! Пожалуйста инсталлируете phpMussel заново."
+
+msgid "corrupted"
+msgstr "Обнаружена поврежденная ПЭ"
+
+msgid "denied"
+msgstr "Загрузка Отказана!"
+
+msgid "denied_other"
+msgstr "Upload Denied! Téléchargement Refusé! Subida Denegada! Caricamento Negato! Upload verweigert! Upload Geweigerd! アップロード拒否! 上传是否认! 上傳是否認! Uppladda Nekas! Augšupielādēt Liegta! 업로드 거부! Sự tải lên đã bị từ chối!"
+
+msgid "denied_reason"
+msgstr "Ваша загрузка была заблокирована по причинам перечисленным ниже / Your upload was blocked for the reasons listed below:"
+
+msgid "detected"
+msgstr "Обнаружено {vn}"
+
+msgid "detected_control_characters"
+msgstr "Обнаружены символы управления"
+
+msgid "encrypted_archive"
+msgstr "Обнаружен зашифрованный архив; Зашифрованные архивы не допускаются"
+
+msgid "failed_to_access"
+msgstr "Не удалось получить доступ "
+
+msgid "file"
+msgstr "файл"
+
+msgid "filesize_limit_exceeded"
+msgstr "Размер файла превышает лимит"
+
+msgid "filetype_blacklisted"
+msgstr "Тип файла находится в черном списке"
+
+msgid "finished"
+msgstr "Готово"
+
+msgid "generated_by"
+msgstr "Генерируется"
+
+msgid "greylist_cleared"
+msgstr " Серый список очищен."
+
+msgid "greylist_not_updated"
+msgstr " Серый список не обновлён."
+
+msgid "greylist_updated"
+msgstr " Серый список обновлён."
+
+msgid "image"
+msgstr "Изображение"
+
+msgid "instance_already_active"
+msgstr "Пример уже активен! Пожалуйста перепроверьте свои крючки."
+
+msgid "invalid_file"
+msgstr "Неверный файл"
+
+msgid "invalid_url"
+msgstr "Неверный URL!"
+
+msgid "ok"
+msgstr "Хорошо"
+
+msgid "only_allow_images"
+msgstr "Загрузка файлов, которые не являются изображением, не допускается"
+
+msgid "phpmussel_disabled"
+msgstr "phpMussel неактивен."
+
+msgid "phpmussel_disabled_already"
+msgstr "phpMussel уже неактивен."
+
+msgid "phpmussel_enabled"
+msgstr "phpMussel активен."
+
+msgid "phpmussel_enabled_already"
+msgstr "phpMussel уже активен."
+
+msgid "plugins_directory_nonexistent"
+msgstr "Каталог плагины не существует!"
+
+msgid "recursive"
+msgstr "Лимит глубины рекурсии превышена"
+
+msgid "required_variables_not_defined"
+msgstr "Обязательные переменные не установлены: Продолжение невозможно."
+
+msgid "scan_aborted"
+msgstr "Сканирование прерывается!"
+
+msgid "scan_chameleon"
+msgstr "Обнаружена {x} хамелеон-атака"
+
+msgid "scan_checking"
+msgstr "Проверить"
+
+msgid "scan_checking_contents"
+msgstr "Сделано! Исходная проверка содержимого."
+
+msgid "scan_command_injection"
+msgstr "Обнаружена попытка командной инъекции"
+
+msgid "scan_complete"
+msgstr "Завершено"
+
+msgid "scan_extensions_missing"
+msgstr "Не удалось (отсутствуют необходимые расширения)!"
+
+msgid "scan_filename_manipulation_detected"
+msgstr "Обнаружена манипуляция имени файла"
+
+msgid "scan_map_corrupted"
+msgstr "Повреждена подпись карты"
+
+msgid "scan_map_missing"
+msgstr "Отсутствует подпись карты"
+
+msgid "scan_missing_filename"
+msgstr "Отсутствует имя файла"
+
+msgid "scan_not_archive"
+msgstr "Не удалось (пуст или не архив)!"
+
+msgid "scan_no_problems_found"
+msgstr "Проблемы не найдены."
+
+msgid "scan_reading"
+msgstr "Чтение"
+
+msgid "scan_signature_file_corrupted"
+msgstr "Повреждена подпись файла"
+
+msgid "scan_signature_file_missing"
+msgstr "Отсутствует подпись файла"
+
+msgid "scan_tampering"
+msgstr "Обнаружена потенциально опасная модификация файла"
+
+msgid "scan_unauthorised_upload"
+msgstr "Обнаружены несанкционированные загрузки манипуляции файла"
+
+msgid "scan_unauthorised_upload_or_misconfig"
+msgstr "Обнаружены несанкционированное загрузки манипуляции файла или неправильная конфигурация! "
+
+msgid "started"
+msgstr "Начало работы"
+
+msgid "too_many_urls"
+msgstr "Слишком много URL"
+
+msgid "upload_error_1"
+msgstr "Файл превышает размер директивы upload_max_filesize. "
+
+msgid "upload_error_2"
+msgstr "Файл превышает размер заданных в директиве формы. "
+
+msgid "upload_error_34"
+msgstr "Загрузка Отказана! Пожалуйста свяжитесь с хостмастером о помощи! "
+
+msgid "upload_error_6"
+msgstr "Загрузка директорий отсутствует! Пожалуйста свяжитесь с хостмастером о помощи! "
+
+msgid "upload_error_7"
+msgstr "Ошибка диск-записи! Пожалуйста свяжитесь с хостмастером о помощи! "
+
+msgid "upload_error_8"
+msgstr "PHP реконфигурация обнаружена! Пожалуйста свяжитесь с хостмастером о помощи! "
+
+msgid "upload_limit_exceeded"
+msgstr "Лимит загрузки превышен"
+
+msgid "wrong_password"
+msgstr "Неправильный пароль; Действие отказано."
+
+msgid "x_does_not_exist"
+msgstr "не существует"
+
+msgid "_exclamation"
+msgstr "! "
+
+msgid "_exclamation_final"
+msgstr "!"
+
+msgid "_fullstop"
+msgstr ". "
+
+msgid "_fullstop_final"
+msgstr "."
+
+msgid "cli_commands"
+msgstr " q\n - Прекратить CLI.\n - Псевдонимы: quit, exit.\n md5_file\n - Создание MD5 подписи от файлы [Синтаксис: md5_file имя-файла].\n - Псевдоним: m.\n md5\n - Создание MD5 подпись от данные [Синтаксис: md5 данные].\n hex_encode\n - Преобразует двоичные данные из шестнадцатеричной\n   [Синтаксис: hex_encode данные].\n - Псевдоним: x.\n hex_decode\n - Преобразует шестнадцатеричные из двоичных данных\n   [Синтаксис: hex_decode данные].\n base64_encode\n - Преобразует двоичные данные из base64 данных\n   [Синтаксис: base64_encode данные].\n - Псевдоним: b.\n base64_decode\n - Преобразует base64 данные из двоичных данных\n   [Синтаксис: base64_decode данные].\n scan\n - Сканирует файл или каталог [Синтаксис: scan имя].\n - Псевдоним: s.\n c\n - Распечатать этот командный список.\n"
+

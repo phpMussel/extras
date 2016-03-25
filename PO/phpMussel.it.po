@@ -1,0 +1,233 @@
+# phpMussel language data
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.it.inc
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-it.po
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
+
+msgid "bad_command"
+msgstr "Non capisco quel comando, mi dispiace."
+
+msgid "cli_failed_to_complete"
+msgstr "Completamento del processo di controllo fallito"
+
+msgid "cli_is_not_a"
+msgstr " non è né un file né una cartella."
+
+msgid "cli_ln2"
+msgstr " Grazie per aver scelto phpMussel, un programma in PHP progettato per rilevare\n trojan, virus, malware ed altre minacce nei file caricati sul tuo sistama\n dovunque il programma stesso è collegato, basato sulle firme di ClamAV\n ed altri.\n\n PHPMUSSEL COPYRIGHT 2013 e oltre GNU/GPL V.2 Caleb M (Maikuolan).\n\n                                     ~ ~ ~\n\n"
+
+msgid "cli_ln3"
+msgstr " Attualmente in esecuzione in modalità CLI (interfaccia a riga di comando).\n\n Per controllare un file o una cartella digita 'scan' seguito dal nome del\n file o della cartella e premi Invio; digita 'c' e premi Invio per l\'elenco\n dei comandi in modalità CLI; digita 'q' e premi Invio per uscire."
+
+msgid "cli_pe1"
+msgstr "Non è un PE file valida!"
+
+msgid "cli_pe2"
+msgstr "PE Sezioni:"
+
+msgid "cli_working"
+msgstr "In corso"
+
+msgid "controls_lockout"
+msgstr "phpMussel blocco di controlli attivato."
+
+msgid "core_scriptfile_missing"
+msgstr "Nucleo script file mancante! Reinstalla phpMussel."
+
+msgid "corrupted"
+msgstr "Rilevato PE corrotto"
+
+msgid "denied"
+msgstr "Caricamento Negato!"
+
+msgid "denied_other"
+msgstr "Upload Denied! Téléchargement Refusé! Subida Denegada! Upload verweigert! Upload Geweigerd! アップロード拒否! 上传是否认! 上傳是否認! Uppladda Nekas! Загрузка Отказана! Augšupielādēt Liegta! 업로드 거부! Sự tải lên đã bị từ chối!"
+
+msgid "denied_reason"
+msgstr "Il tentativo di caricamento è stato bloccato per i motivi elencati di seguito / Your upload was blocked for the reasons listed below:"
+
+msgid "detected"
+msgstr "Rilevato {vn}"
+
+msgid "detected_control_characters"
+msgstr "Rilevati caratteri di controllo"
+
+msgid "encrypted_archive"
+msgstr "Rilevato archivio criptato; Archivi criptati non ammessi"
+
+msgid "failed_to_access"
+msgstr "Fallito l'accesso a "
+
+msgid "file"
+msgstr "File"
+
+msgid "filesize_limit_exceeded"
+msgstr "Dimensione massima del file superata"
+
+msgid "filetype_blacklisted"
+msgstr "Tipo di file nella lista nera"
+
+msgid "finished"
+msgstr "Finito"
+
+msgid "generated_by"
+msgstr "Generato da"
+
+msgid "greylist_cleared"
+msgstr " Lista grigia svuotata."
+
+msgid "greylist_not_updated"
+msgstr " Lista grigia non aggiornata."
+
+msgid "greylist_updated"
+msgstr " Lista grigia aggiornata."
+
+msgid "image"
+msgstr "Immagine"
+
+msgid "instance_already_active"
+msgstr "Istanza già attivo! Si prega di ricontrolla i vostri ganci."
+
+msgid "invalid_file"
+msgstr "File non valido"
+
+msgid "invalid_url"
+msgstr "URL non valido!"
+
+msgid "ok"
+msgstr "Fatto"
+
+msgid "only_allow_images"
+msgstr "Il caricamento di file che non sono immagini non è consentito"
+
+msgid "phpmussel_disabled"
+msgstr "phpMussel disattivato."
+
+msgid "phpmussel_disabled_already"
+msgstr "phpMussel già disattivato."
+
+msgid "phpmussel_enabled"
+msgstr "phpMussel attivato."
+
+msgid "phpmussel_enabled_already"
+msgstr "phpMussel già attivato."
+
+msgid "plugins_directory_nonexistent"
+msgstr "Direttorio dei plugin non esiste!"
+
+msgid "recursive"
+msgstr "Limite di profondità di controllo superato"
+
+msgid "required_variables_not_defined"
+msgstr "Variabili obbligatori non sono definite: Impossibile di continuare."
+
+msgid "scan_aborted"
+msgstr "Controllo interrotto!"
+
+msgid "scan_chameleon"
+msgstr "Rilevato attacco camaleonte {x}"
+
+msgid "scan_checking"
+msgstr "Verifica"
+
+msgid "scan_checking_contents"
+msgstr "Successo! Procedo a verificare i contenuti."
+
+msgid "scan_command_injection"
+msgstr "Rilevato tentativo di iniezione dei comandi"
+
+msgid "scan_complete"
+msgstr "Completato"
+
+msgid "scan_extensions_missing"
+msgstr "Fallito (mancano le estensioni richieste)!"
+
+msgid "scan_filename_manipulation_detected"
+msgstr "Rilevata la manipolazione del nome di un file"
+
+msgid "scan_map_corrupted"
+msgstr "Mappa delle firme corrotta"
+
+msgid "scan_map_missing"
+msgstr "Mappa delle firme mancante"
+
+msgid "scan_missing_filename"
+msgstr "Nome del file mancante"
+
+msgid "scan_not_archive"
+msgstr "Fallito (vuoto o non è un archivio)!"
+
+msgid "scan_no_problems_found"
+msgstr "Nessun problema rilevato."
+
+msgid "scan_reading"
+msgstr "Lettura in corso"
+
+msgid "scan_signature_file_corrupted"
+msgstr "File delle firme corrotto"
+
+msgid "scan_signature_file_missing"
+msgstr "File delle firme mancante"
+
+msgid "scan_tampering"
+msgstr "Rilevato potenzialmente pericolosi alterazione del file"
+
+msgid "scan_unauthorised_upload"
+msgstr "Rilevata manipolazione non autorizzata del caricamento del file"
+
+msgid "scan_unauthorised_upload_or_misconfig"
+msgstr "Rilevata manipolazione non autorizzata del caricamento del file o malconfigurazione! "
+
+msgid "started"
+msgstr "Iniziato"
+
+msgid "too_many_urls"
+msgstr "Troppi URL"
+
+msgid "upload_error_1"
+msgstr "La dimensione del file supera la direttiva upload_max_filesize. "
+
+msgid "upload_error_2"
+msgstr "La dimensione del file supera la dimensione limite specificata dal modulo. "
+
+msgid "upload_error_34"
+msgstr "Caricamento fallito! Contatta l'hostmaster per assistenza! "
+
+msgid "upload_error_6"
+msgstr "Cartella per il caricamento mancante! Contatta l'hostmaster per assistenza! "
+
+msgid "upload_error_7"
+msgstr "Errore nella scrittura del disco! Contatta l'hostmaster per assistenza! "
+
+msgid "upload_error_8"
+msgstr "Rilevata una malconfigurazione di PHP! Contatta l'hostmaster per assistenza! "
+
+msgid "upload_limit_exceeded"
+msgstr "Limite di caricamento superato"
+
+msgid "wrong_password"
+msgstr "Password sbagliata; azione negata."
+
+msgid "x_does_not_exist"
+msgstr "non esiste"
+
+msgid "_exclamation"
+msgstr "! "
+
+msgid "_exclamation_final"
+msgstr "!"
+
+msgid "_fullstop"
+msgstr ". "
+
+msgid "_fullstop_final"
+msgstr "."
+
+msgid "cli_commands"
+msgstr " q\n - Esci dall'interfaccia a riga di comando.\n - Alias: quit, exit.\n md5_file\n - Genera le firme MD5 da file [Sintassi: md5_file nomefile].\n - Alias: m.\n md5\n - Genera le firme md5 da stringa [Sintassi: md5 stringa].\n hex_encode\n - Converti la stringa binaria in esadecimale [Sintassi: hex_encode stringa].\n - Alias: x.\n hex_decode\n - Converti la stringa esadecimale in binaria [Sintassi: hex_decode stringa].\n base64_encode\n - Converti la stringa binaria in base64 [Sintassi: base64_encode stringa].\n - Alias: b.\n base64_decode\n - Converti la stringa da base64 a binaria [Sintassi: base64_decode stringa].\n scan\n - Controlla un file o una cartella [Sintassi: scan nomefile].\n - Alias: s.\n c\n - Mostra questa lista di comandi.\n"
+

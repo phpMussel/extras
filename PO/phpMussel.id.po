@@ -1,0 +1,233 @@
+# phpMussel language data
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.id.inc
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-id.po
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
+
+msgid "bad_command"
+msgstr "Saya tidak mengerti perintah itu, maaf."
+
+msgid "cli_failed_to_complete"
+msgstr "Gagal untuk menyelesaikan memindai proses"
+
+msgid "cli_is_not_a"
+msgstr " bukan file atau direktori."
+
+msgid "cli_ln2"
+msgstr " Terima kasih untuk menggunakan phpMussel, sebuah skrip php di-design untuk\n mendeteksi trojan-trojan, virus-virus dan serangan-serangan lainnya dalam\n file-file diupload ke system Anda dimana saja skrip di kaitkan, berdasarkan\n tanda tangan dari ClamAV dan lain-lain.\n\n PHPMUSSEL HAK CIPTA 2013 dan di atas GNU/GPL V.2 oleh Caleb M (Maikuolan).\n\n                                     ~ ~ ~\n\n"
+
+msgid "cli_ln3"
+msgstr " Sekarang phpMussel operasi di CLI mode (command line interface).\n\n Untuk memindai file atau direktori, menulis 'scan', diikuti dengan nama file\n atau direktori yang ingin Anda phpMussel untuk memindai dan tekan Enter;\n Menulis 'c' dan tekan Enter untuk daftar CLI mode perintah; Menulis 'q' dan\n tekan Enter untuk keluar:"
+
+msgid "cli_pe1"
+msgstr "Tidak valid file PE!"
+
+msgid "cli_pe2"
+msgstr "Seksi PE:"
+
+msgid "cli_working"
+msgstr "Dalam proses"
+
+msgid "controls_lockout"
+msgstr "phpMussel mengunci kontrol diaktifkan."
+
+msgid "core_scriptfile_missing"
+msgstr "File skrip inti hilang! Silakan instal ulang phpMussel."
+
+msgid "corrupted"
+msgstr "Terdeteksi rusak PE"
+
+msgid "denied"
+msgstr "Upload Ditolak!"
+
+msgid "denied_other"
+msgstr "Upload Denied! Téléchargement Refusé! Subida Denegada! Caricamento Negato! Upload verweigert! Upload Geweigerd! アップロード拒否! 上传是否认! 上傳是否認! Uppladda Nekas! Загрузка Отказана! Augšupielādēt Liegta! 업로드 거부! Sự tải lên đã bị từ chối!"
+
+msgid "denied_reason"
+msgstr "Upload diblokir karena alasan yang tercantum di bawah / Your upload was blocked for the reasons listed below:"
+
+msgid "detected"
+msgstr "Terdeteksi {vn}"
+
+msgid "detected_control_characters"
+msgstr "Terdeteksi kontrol karakter"
+
+msgid "encrypted_archive"
+msgstr "Terdeteksi arsip dienkripsi; Arsip dienkripsi tidak diizinkan"
+
+msgid "failed_to_access"
+msgstr "Gagal untuk akses "
+
+msgid "file"
+msgstr "File"
+
+msgid "filesize_limit_exceeded"
+msgstr "File ukuran batas melebihi"
+
+msgid "filetype_blacklisted"
+msgstr "File jenis pada hitam daftar"
+
+msgid "finished"
+msgstr "Selesai"
+
+msgid "generated_by"
+msgstr "Dihasilkan oleh"
+
+msgid "greylist_cleared"
+msgstr " Greylist dikosongkan."
+
+msgid "greylist_not_updated"
+msgstr " Greylist tidak diperbarui."
+
+msgid "greylist_updated"
+msgstr " Greylist diperbarui."
+
+msgid "image"
+msgstr "Gambar"
+
+msgid "instance_already_active"
+msgstr "Kejadian sudah aktif! Silakan periksa kait Anda."
+
+msgid "invalid_file"
+msgstr "File tidak valid"
+
+msgid "invalid_url"
+msgstr "URL tidak valid!"
+
+msgid "ok"
+msgstr "Oke"
+
+msgid "only_allow_images"
+msgstr "Upload file selain gambar tidak diizinkan"
+
+msgid "phpmussel_disabled"
+msgstr "phpMussel dinonaktifkan."
+
+msgid "phpmussel_disabled_already"
+msgstr "phpMussel sudah dinonaktifkan."
+
+msgid "phpmussel_enabled"
+msgstr "phpMussel diaktifkan."
+
+msgid "phpmussel_enabled_already"
+msgstr "phpMussel sudah diaktifkan."
+
+msgid "plugins_directory_nonexistent"
+msgstr "Direktori plugin tidak ada!"
+
+msgid "recursive"
+msgstr "Batas kedalaman rekursi melebihi"
+
+msgid "required_variables_not_defined"
+msgstr "Variabel diharuskan tidak didefinisikan: Tidak dapat dilanjutkan."
+
+msgid "scan_aborted"
+msgstr "Memindai dibatalkan!"
+
+msgid "scan_chameleon"
+msgstr "Bunglon {x} serangan terdeteksi"
+
+msgid "scan_checking"
+msgstr "Memeriksa"
+
+msgid "scan_checking_contents"
+msgstr "Sukses! Melanjutkan untuk memeriksa isi."
+
+msgid "scan_command_injection"
+msgstr "Perintah injeksi terdeteksi"
+
+msgid "scan_complete"
+msgstr "Selesai"
+
+msgid "scan_extensions_missing"
+msgstr "Gagal (hilang ekstensi yang dibutuhkan)!"
+
+msgid "scan_filename_manipulation_detected"
+msgstr "File nama manipulasi terdeteksi"
+
+msgid "scan_map_corrupted"
+msgstr "Tanda tangan peta rusak"
+
+msgid "scan_map_missing"
+msgstr "Tanda tangan peta hilang"
+
+msgid "scan_missing_filename"
+msgstr "Hilang nama file"
+
+msgid "scan_not_archive"
+msgstr "Gagal (kosong atau tidak sebuah arsip)!"
+
+msgid "scan_no_problems_found"
+msgstr "Tidak ada masalah yang diketahui."
+
+msgid "scan_reading"
+msgstr "Bacaan"
+
+msgid "scan_signature_file_corrupted"
+msgstr "Tanda tangan file rusak"
+
+msgid "scan_signature_file_missing"
+msgstr "Tanda tangan file hilang"
+
+msgid "scan_tampering"
+msgstr "Terdeteksi perubahan berpotensi berbahaya dalam file"
+
+msgid "scan_unauthorised_upload"
+msgstr "Tidak sah file nama manipulasi terdeteksi"
+
+msgid "scan_unauthorised_upload_or_misconfig"
+msgstr "Tidak sah file nama manipulasi atau salah-konfigurasi terdeteksi! "
+
+msgid "started"
+msgstr "Dimulai"
+
+msgid "too_many_urls"
+msgstr "Terlalu banyak URL"
+
+msgid "upload_error_1"
+msgstr "File ukuran melebihi direktif upload_max_filesize. "
+
+msgid "upload_error_2"
+msgstr "File ukuran melebihi formulir ditentukan file ukuran batas. "
+
+msgid "upload_error_34"
+msgstr "Upload gagal! Silahkan hubungi hostmaster untuk bantuan! "
+
+msgid "upload_error_6"
+msgstr "Upload direktori hilang! Silahkan hubungi hostmaster untuk bantuan! "
+
+msgid "upload_error_7"
+msgstr "Disk-menulis kesalahan! Silahkan hubungi hostmaster untuk bantuan! "
+
+msgid "upload_error_8"
+msgstr "PHP salah-konfigurasi terdeteksi! Silahkan hubungi hostmaster untuk bantuan! "
+
+msgid "upload_limit_exceeded"
+msgstr "Upload batas melebihi"
+
+msgid "wrong_password"
+msgstr "Password yang salah; Aksi ditolak."
+
+msgid "x_does_not_exist"
+msgstr "tidak ada"
+
+msgid "_exclamation"
+msgstr "! "
+
+msgid "_exclamation_final"
+msgstr "!"
+
+msgid "_fullstop"
+msgstr ". "
+
+msgid "_fullstop_final"
+msgstr "."
+
+msgid "cli_commands"
+msgstr " q\n - Berhenti CLI.\n - Alias: quit, exit.\n md5_file\n - Menghasilkan tanda tangan MD5 dari file [Sintaksis: md5_file \"nama file\"].\n - Alias: m.\n md5\n - Menghasilkan tanda tangan MD5 dari string [Sintaksis: md5 string].\n hex_encode\n - Mengkonversi string biner ke heksadesimal [Sintaksis: hex_encode string].\n - Alias: x.\n hex_decode\n - Mengkonversi heksadesimal ke string biner [Sintaksis: hex_decode string].\n base64_encode\n - Mengkonversi string biner ke string base64 [Sintaksis: base64_encode string].\n - Alias: b.\n base64_decode\n - Mengkonversi string base64 ke string biner [Sintaksis: base64_decode string].\n scan\n - Pindai file atau direktori [Sintaksis: scan \"nama file\"].\n - Alias: s.\n c\n - Cetak ini daftar perintah.\n"
+

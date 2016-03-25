@@ -1,0 +1,233 @@
+# phpMussel language data
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.nl.inc
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-nl.po
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Project-Id-Version: phpMussel v1.0.0\n"
+
+msgid "bad_command"
+msgstr "Ik begrijp niet dat bevel, sorry."
+
+msgid "cli_failed_to_complete"
+msgstr "Mislukt om het voltooien te scannen"
+
+msgid "cli_is_not_a"
+msgstr " is geen bestand of map."
+
+msgid "cli_ln2"
+msgstr " Dank u voor het gebruiken van phpMussel, een PHP-script ontwikkeld om trojans,\n virussen, malware en andere bedreigingen te ontworpen, binnen bestanden\n geüpload naar uw systeem waar het script is haakte, gebaseerd op de\n handtekeningen van ClamAV en anderen.\n PHPMUSSEL COPYRIGHT 2013 en verder GNU/GPL V.2 van Caleb M (Maikuolan).\n\n                                     ~ ~ ~\n\n"
+
+msgid "cli_ln3"
+msgstr " Momenteel phpMussel is in CLI-modus (commandlijn interface).\n\n Om scannen een bestand of map, typ 'scan', gevolgd door de naam van het\n bestand of de map die u wilt phpMussel te scannen en druk op Enter; Typ 'c' en\n druk op Enter voor een lijst op CLI-modus commando's; Typ 'q' en druk op Enter\n om te stoppen:"
+
+msgid "cli_pe1"
+msgstr "Geen geldig PE-bestand!"
+
+msgid "cli_pe2"
+msgstr "PE Secties:"
+
+msgid "cli_working"
+msgstr "Aan de gang"
+
+msgid "controls_lockout"
+msgstr "phpMussel controles-slot ingeschakeld."
+
+msgid "core_scriptfile_missing"
+msgstr "Kern script ontbreekt! Opnieuw installeer phpMussel."
+
+msgid "corrupted"
+msgstr "Gedetecteerd beschadigd PE"
+
+msgid "denied"
+msgstr "Upload Geweigerd!"
+
+msgid "denied_other"
+msgstr "Upload Denied! Téléchargement Refusé! Subida Denegada! Caricamento Negato! Upload verweigert! Upload Geweigerd! アップロード拒否! 上传是否认! 上傳是否認! Uppladda Nekas! Загрузка Отказана! Augšupielādēt Liegta! 업로드 거부! Sự tải lên đã bị từ chối!"
+
+msgid "denied_reason"
+msgstr "De upload poging werd geblokkeerd voor de hieronder vermelde redenen / Your upload was blocked for the reasons listed below:"
+
+msgid "detected"
+msgstr "Gedetecteerd {vn}"
+
+msgid "detected_control_characters"
+msgstr "Gedetecteerd controle karakters"
+
+msgid "encrypted_archive"
+msgstr "Gedetecteerd gecodeerde archief; Gecodeerde archieven niet toegestaan"
+
+msgid "failed_to_access"
+msgstr "Mislukt om toegang "
+
+msgid "file"
+msgstr "Bestand"
+
+msgid "filesize_limit_exceeded"
+msgstr "Bestandsgrootte limiet overschreden"
+
+msgid "filetype_blacklisted"
+msgstr "Bestandstype in zwarte lijst"
+
+msgid "finished"
+msgstr "Afgewerkt"
+
+msgid "generated_by"
+msgstr "Gegenereerde door"
+
+msgid "greylist_cleared"
+msgstr " Greylist geleegd."
+
+msgid "greylist_not_updated"
+msgstr " Greylist niet bijgewerkt."
+
+msgid "greylist_updated"
+msgstr " Greylist bijgewerkt."
+
+msgid "image"
+msgstr "Image"
+
+msgid "instance_already_active"
+msgstr "Instantie al actief! Controleer uw haken."
+
+msgid "invalid_file"
+msgstr "Ongeldige bestand"
+
+msgid "invalid_url"
+msgstr "Ongeldige URL!"
+
+msgid "ok"
+msgstr "OK"
+
+msgid "only_allow_images"
+msgstr "Uploaden van niet-beeldbestanden is niet toegestaan"
+
+msgid "phpmussel_disabled"
+msgstr "phpMussel uitgeschakeld."
+
+msgid "phpmussel_disabled_already"
+msgstr "phpMussel al uitgeschakeld."
+
+msgid "phpmussel_enabled"
+msgstr "phpMussel ingeschakeld."
+
+msgid "phpmussel_enabled_already"
+msgstr "phpMussel al ingeschakeld."
+
+msgid "plugins_directory_nonexistent"
+msgstr "Plugins bestandsmap bestaat niet!"
+
+msgid "recursive"
+msgstr "Recursie dieptelimiet overschreden"
+
+msgid "required_variables_not_defined"
+msgstr "Vereiste variabelen zijn niet gedefinieerd: Kan niet doorgaan."
+
+msgid "scan_aborted"
+msgstr "Scannen afgebroken!"
+
+msgid "scan_chameleon"
+msgstr "{x} kameleon aanval gedetecteerd"
+
+msgid "scan_checking"
+msgstr "Verifiëren"
+
+msgid "scan_checking_contents"
+msgstr "Succes! Gaan tot verifiëren de inhoud."
+
+msgid "scan_command_injection"
+msgstr "Command injectie poging gedetecteerd"
+
+msgid "scan_complete"
+msgstr "Voltooid"
+
+msgid "scan_extensions_missing"
+msgstr "Mislukt (ontbrekende vereiste extensies)!"
+
+msgid "scan_filename_manipulation_detected"
+msgstr "Bestandsnaam manipulatie ontdekt"
+
+msgid "scan_map_corrupted"
+msgstr "Handtekening kaart beschadigd"
+
+msgid "scan_map_missing"
+msgstr "Handtekening kaart ontbrekende"
+
+msgid "scan_missing_filename"
+msgstr "Ontbrekende bestandsnaam"
+
+msgid "scan_not_archive"
+msgstr "Mislukt (leeg of is geen archief)!"
+
+msgid "scan_no_problems_found"
+msgstr "Geen problemen gevonden."
+
+msgid "scan_reading"
+msgstr "Lezen van"
+
+msgid "scan_signature_file_corrupted"
+msgstr "Handtekening bestand beschadigd"
+
+msgid "scan_signature_file_missing"
+msgstr "Handtekening bestand ontbreekt"
+
+msgid "scan_tampering"
+msgstr "Gedetecteerd potentieel gevaarlijke bestandswijziging"
+
+msgid "scan_unauthorised_upload"
+msgstr "Ongeautoriseerde bestand uploaden manipulatie gedetecteerd"
+
+msgid "scan_unauthorised_upload_or_misconfig"
+msgstr "Ongeautoriseerde bestand uploaden manipulatie of misconfiguratie gedetecteerd! "
+
+msgid "started"
+msgstr "Gestart"
+
+msgid "too_many_urls"
+msgstr "Te veel URL's"
+
+msgid "upload_error_1"
+msgstr "Bestandsgrootte overschrijdt de upload_max_filesize richtlijn. "
+
+msgid "upload_error_2"
+msgstr "Bestandsgrootte overschrijdt de vorm gespecificeerde bestandsgrootte limiet. "
+
+msgid "upload_error_34"
+msgstr "Upload mislukking! Contact op met de hostmaster voor hulp! "
+
+msgid "upload_error_6"
+msgstr "Uploadmap ontbreekt! Contact op met de hostmaster voor hulp! "
+
+msgid "upload_error_7"
+msgstr "Disc-schrijffout! Contact op met de hostmaster voor hulp! "
+
+msgid "upload_error_8"
+msgstr "PHP misconfiguratie gedetecteerd! Contact op met de hostmaster voor hulp! "
+
+msgid "upload_limit_exceeded"
+msgstr "Uploadlimiet overschreden"
+
+msgid "wrong_password"
+msgstr "Verkeerd wachtwoord; Actie geweigerd."
+
+msgid "x_does_not_exist"
+msgstr "niet bestaat"
+
+msgid "_exclamation"
+msgstr "! "
+
+msgid "_exclamation_final"
+msgstr "!"
+
+msgid "_fullstop"
+msgstr ". "
+
+msgid "_fullstop_final"
+msgstr "."
+
+msgid "cli_commands"
+msgstr " q\n - Verlaten CLI.\n - Aliassen: quit, exit.\n md5_file\n - Genereer MD5 handtekeningen van bestanden [Syntaxis: md5_file bestandsnaam].\n - Alias: m.\n md5\n - Genereer MD5 handtekening van string [Syntaxis: md5 string].\n hex_encode\n - Converteren van binaire string naar hexadecimaal\n   [Syntaxis: hex_encode string].\n - Alias: x.\n hex_decode\n - Converteren van hexadecimaal naar binaire string\n   [Syntaxis: hex_decode string].\n base64_encode\n - Converteren van binaire string naar base64 string\n   [Syntaxis: base64_encode string].\n - Alias: b.\n base64_decode\n - Converteren van base64 string naar binaire string\n   [Syntaxis: base64_decode string].\n scan\n - Scannen bestand of map [Syntaxis: scan bestandsnaam].\n - Alias: s.\n c\n - Print dit commando lijst.\n"
+
