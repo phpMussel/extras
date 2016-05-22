@@ -1,6 +1,6 @@
 # phpMussel language data
-# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.id.inc
-# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-id.po
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.id.php
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel.id.po
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -120,11 +120,29 @@ msgstr "phpMussel sudah diaktifkan."
 msgid "plugins_directory_nonexistent"
 msgstr "Direktori plugin tidak ada!"
 
+msgid "quarantined_as"
+msgstr "Dikarantina sebagai \"/vault/quarantine/{QFU}.qfu\".\n"
+
 msgid "recursive"
 msgstr "Batas kedalaman rekursi melebihi"
 
 msgid "required_variables_not_defined"
 msgstr "Variabel diharuskan tidak didefinisikan: Tidak dapat dilanjutkan."
+
+msgid "SafeBrowseLookup_200"
+msgstr "Berpotensi URL berbahaya terdeteksi"
+
+msgid "SafeBrowseLookup_400"
+msgstr "Kesalahan permintaan API"
+
+msgid "SafeBrowseLookup_401"
+msgstr "Kesalahan otorisasi API"
+
+msgid "SafeBrowseLookup_503"
+msgstr "Layanan API tidak tersedia"
+
+msgid "SafeBrowseLookup_999"
+msgstr "Kesalahan API tidak diketahui"
 
 msgid "scan_aborted"
 msgstr "Memindai dibatalkan!"

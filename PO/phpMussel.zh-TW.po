@@ -1,6 +1,6 @@
 # phpMussel language data
-# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.zh-TW.inc
-# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-zh-TW.po
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.zh-TW.php
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel.zh-TW.po
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -120,11 +120,29 @@ msgstr "phpMussel已激活。"
 msgid "plugins_directory_nonexistent"
 msgstr "插件文件夾不存在！"
 
+msgid "quarantined_as"
+msgstr "隔離為“/vault/quarantine/{QFU}.qfu”。\n"
+
 msgid "recursive"
 msgstr "遞歸深度超過是限制"
 
 msgid "required_variables_not_defined"
 msgstr "需要的變量是未定義：無法繼續。"
+
+msgid "SafeBrowseLookup_200"
+msgstr "可能有害的URL檢測"
+
+msgid "SafeBrowseLookup_400"
+msgstr "API請求錯誤"
+
+msgid "SafeBrowseLookup_401"
+msgstr "API授權錯誤"
+
+msgid "SafeBrowseLookup_503"
+msgstr "API服務不可用"
+
+msgid "SafeBrowseLookup_999"
+msgstr "未知API錯誤"
 
 msgid "scan_aborted"
 msgstr "掃描中止！"

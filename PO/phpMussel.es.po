@@ -1,6 +1,6 @@
 # phpMussel language data
-# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.es.inc
-# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-es.po
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.es.php
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel.es.po
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -120,11 +120,29 @@ msgstr "phpMussel ya está activado."
 msgid "plugins_directory_nonexistent"
 msgstr "Directorio de plugins no existe!"
 
+msgid "quarantined_as"
+msgstr "En cuarentena como \"/vault/quarantine/{QFU}.qfu\".\n"
+
 msgid "recursive"
 msgstr "Recursión profundidad límite excedido"
 
 msgid "required_variables_not_defined"
 msgstr "Variables requeridas no están definidos: No puede continuar."
+
+msgid "SafeBrowseLookup_200"
+msgstr "URL potencialmente dañino detectado"
+
+msgid "SafeBrowseLookup_400"
+msgstr "Error de solicitud de la API"
+
+msgid "SafeBrowseLookup_401"
+msgstr "Error de autorización de la API"
+
+msgid "SafeBrowseLookup_503"
+msgstr "Servicio de la API no está disponible"
+
+msgid "SafeBrowseLookup_999"
+msgstr "Error da la API desconocido"
 
 msgid "scan_aborted"
 msgstr "Escaneo abortado!"

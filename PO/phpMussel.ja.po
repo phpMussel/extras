@@ -1,6 +1,6 @@
 # phpMussel language data
-# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.ja.inc
-# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-ja.po
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.ja.php
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel.ja.po
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -120,11 +120,29 @@ msgstr "phpMusselは既にオンです。"
 msgid "plugins_directory_nonexistent"
 msgstr "プラグインデイレクトリが存在しません！"
 
+msgid "quarantined_as"
+msgstr "「/vault/quarantine/{QFU}.qfu」として隔離。\n"
+
 msgid "recursive"
 msgstr "再帰定義呼び出しの繰り返し回数が上限を超えました"
 
 msgid "required_variables_not_defined"
 msgstr "リクエストのあった変数は定義されていないため、続行できません。"
+
+msgid "SafeBrowseLookup_200"
+msgstr "潜在的に有害なURLが検出されました"
+
+msgid "SafeBrowseLookup_400"
+msgstr "APIリクエストが不正である"
+
+msgid "SafeBrowseLookup_401"
+msgstr "API認証エラー"
+
+msgid "SafeBrowseLookup_503"
+msgstr "APIサービス利用不可"
+
+msgid "SafeBrowseLookup_999"
+msgstr "不明なAPIエラー"
 
 msgid "scan_aborted"
 msgstr "スキャニング中断！"

@@ -1,6 +1,6 @@
 # phpMussel language data
-# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.ru.inc
-# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-ru.po
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.ru.php
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel.ru.po
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgid "finished"
 msgstr "Готово"
 
 msgid "generated_by"
-msgstr "Генерируется"
+msgstr "Генерируется от"
 
 msgid "greylist_cleared"
 msgstr " Серый список очищен."
@@ -120,11 +120,29 @@ msgstr "phpMussel уже активен."
 msgid "plugins_directory_nonexistent"
 msgstr "Каталог плагины не существует!"
 
+msgid "quarantined_as"
+msgstr "Помещен на карантин в \"/vault/quarantine/{QFU}.qfu\".\n"
+
 msgid "recursive"
 msgstr "Лимит глубины рекурсии превышена"
 
 msgid "required_variables_not_defined"
 msgstr "Обязательные переменные не установлены: Продолжение невозможно."
+
+msgid "SafeBrowseLookup_200"
+msgstr "Потенциально вредное URL обнаружено"
+
+msgid "SafeBrowseLookup_400"
+msgstr "Ошибка запроса API"
+
+msgid "SafeBrowseLookup_401"
+msgstr "Ошибка авторизации API"
+
+msgid "SafeBrowseLookup_503"
+msgstr "Сервис недоступен API"
+
+msgid "SafeBrowseLookup_999"
+msgstr "Неизвестная API ошибка"
 
 msgid "scan_aborted"
 msgstr "Сканирование прерывается!"

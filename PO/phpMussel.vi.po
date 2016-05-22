@@ -1,6 +1,6 @@
 # phpMussel language data
-# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.vi.inc
-# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel-vi.po
+# Used by (PHP source): https://github.com/Maikuolan/phpMussel/blob/master/vault/lang/lang.vi.php
+# This file from: https://github.com/Maikuolan/phpMussel-extras/blob/master/PO/phpMussel.vi.po
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -120,11 +120,29 @@ msgstr "phpMussel đã được cho phép."
 msgid "plugins_directory_nonexistent"
 msgstr "Thư mực plugin không tồn tại!"
 
+msgid "quarantined_as"
+msgstr "Đã được kiểm dịch là \"/vault/quarantine/{QFU}.qfu\".\n"
+
 msgid "recursive"
 msgstr "Độ sâu đệ quy bị quá giới hạn"
 
 msgid "required_variables_not_defined"
 msgstr "Các biến số cần thiết chưa có định nghĩa: Có thể không có thể tiếp tục."
+
+msgid "SafeBrowseLookup_200"
+msgstr "URL đó là có khả năng có hại đã được phát hiện"
+
+msgid "SafeBrowseLookup_400"
+msgstr "Lỗi yêu cầu API"
+
+msgid "SafeBrowseLookup_401"
+msgstr "Lỗi ủy quyền API"
+
+msgid "SafeBrowseLookup_503"
+msgstr "Dịch vụ của API không có sẵn"
+
+msgid "SafeBrowseLookup_999"
+msgstr "Lỗi API không xác định"
 
 msgid "scan_aborted"
 msgstr "Hủy bỏ quét!"
