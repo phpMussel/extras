@@ -8,8 +8,8 @@ This repository, "phpMussel-extras", is a repository for any extras for phpMusse
 
 The main repository: [phpMussel](https://github.com/Maikuolan/phpMussel).
 
-The themes repository: [phpMussel-themes](https://github.com/DanielRuf/phpMussel-themes).
+The themes repository: [phpMussel-themes](https://github.com/phpMussel/phpMussel-themes).
 
-This repository: [phpMussel-extras](https://github.com/Maikuolan/phpMussel-extras).
+This repository: [phpMussel-extras](https://github.com/phpMussel/phpMussel-extras).
 
 *This file, "README.md", last edited: 23rd July 2015 (2015.07.23).*
