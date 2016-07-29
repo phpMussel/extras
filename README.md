@@ -4,6 +4,6 @@ An ideal solution for shared hosting environments, where it's often not possible
 
 ## **What's this repository for?**
 
-This repository, "__[extras](https://github.com/phpMussel/extras)__", is a repository for any extras for phpMussel that don't belong in the __[core phpMussel repository](https://github.com/Maikuolan/phpMussel)__ or the __themes repository: [themes](https://github.com/phpMussel/themes)__ (for example, branding files, customisations, etc).
+This repository, "__[extras](https://github.com/phpMussel/extras)__", is a repository for any extras for phpMussel that don't belong in the __[core phpMussel repository](https://github.com/Maikuolan/phpMussel)__ or the __[themes repository](https://github.com/phpMussel/themes)__ (for example, branding files, customisations, etc).
 
 *This file, "README.md", last edited: 29th July 2016 (2016.07.29).*
