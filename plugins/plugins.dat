@@ -1,7 +1,7 @@
 ---
 plugin-legacy:
  Name: Legacy plugin for phpMussel.
- Extended Description: This is a very simple plugin intended to serve as a bridge between the function-style implementation of phpMussel v0 and the closure-style implementation of phpMussel v1. It provides backwards-compatibility for any phpMussel users that make calls to phpMussel v0 functions from within their CMS, forums, websites, etc, that wish to upgrade to phpMussel v1 (which uses closures instead of functions) but which don't wish to update all their function calls to closure calls. It does this by redeclaring functions using the names of former v0 functions that call their new v1 closure counterparts.<br /><br />Any phpMussel users that don't make calls to phpMussel v0 functions from within their CMS, forums, websites, etc, won't and shouldn't use this plugin, because it won't be of any benefit to them. Please note, too, that this plugin will only provide for the former <code>phpMusselR()</code> and <code>phpMussel()</code> functions; Because the former `phpMussel_mail()` function has been deprecated and removed from v1, there is nothing to be bridged to from here. A separate plugin will be developed to serve as a replacement for this function.
+ Extended Description: Provides backwards-compatibility for v0 users using <code>phpMusselR()</code> and <code>phpMussel()</code>, by redeclaring these deprecated functions as wrappers for their newer, closure counterparts. Non-v0 users don't need this plugin and shouldn't use it.
  Version: 1.0.1
  Minimum Required: 1.0.0-DEV
  Minimum Required PHP: 5.4.0
@@ -15,5 +15,67 @@ plugin-legacy:
    - plugins/legacy/plugin.php
   Checksum:
    - 2d033ab028589c90057846b706ef54a8:2320
+ Reannotate: plugins.dat
+plugin-notifications:
+ Name: Notifications plugin for phpMussel.
+ Extended Description: Receive email notifications from phpMussel whenever a file upload is blocked (requires PHP "mail" function to be correctly configured).
+ Version: 2.0.0
+ Minimum Required: 1.0.0-DEV
+ Minimum Required PHP: 5.4.0
+ Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
+ Uninstallable: true
+ Provisional: true
+ Files:
+  From:
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.ar.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.de.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.en.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.es.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.fr.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.id.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.it.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.ja.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.ko.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.nl.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.pt.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.ru.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.vi.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.zh.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/lang.zh-tw.php
+   - https://raw.githubusercontent.com/phpMussel/plugin-notifications/master/notifications/plugin.php
+  To:
+   - plugins/notifications/lang.ar.php
+   - plugins/notifications/lang.de.php
+   - plugins/notifications/lang.en.php
+   - plugins/notifications/lang.es.php
+   - plugins/notifications/lang.fr.php
+   - plugins/notifications/lang.id.php
+   - plugins/notifications/lang.it.php
+   - plugins/notifications/lang.ja.php
+   - plugins/notifications/lang.ko.php
+   - plugins/notifications/lang.nl.php
+   - plugins/notifications/lang.pt.php
+   - plugins/notifications/lang.ru.php
+   - plugins/notifications/lang.vi.php
+   - plugins/notifications/lang.zh.php
+   - plugins/notifications/lang.zh-tw.php
+   - plugins/notifications/plugin.php
+  Checksum:
+   - c2f888fd351a5af2aae569f76fce224c:941
+   - 8b3d28aa47a1f9077a9d5ae7a652d8fe:855
+   - a035354dd9c5c3e3d9d0aa03256aec51:810
+   - 7a48995f0883bf4b30097e300d5dd4b8:845
+   - cf79f5f2c62a0a4c7d8fed20a2ad4352:851
+   - b7a26c458b780b58981169c74cb323f9:806
+   - 99546bd10e1f197d2aa6d908d00337de:837
+   - c1ad221c6b6adf03c07c7386fcf1a7f9:871
+   - 5b42703938c3176fa9d78472940953cc:824
+   - cd5caa1f0ceb65636701a80fdd37d6ef:842
+   - 95a199b83e37938c809ba51ec49e0e7e:827
+   - 4ac3a60d1bd73a3ab4d45c49ea32c901:1004
+   - e2a10c61205cc955f247de9c0e7c3758:888
+   - 6ebd87af51d67e173ae93df1761682f0:793
+   - 406d0af4e90e93cae0d3893314d5151c:792
+   - 67c7c168127ac1386a6a8f914af2f877:3235
  Reannotate: plugins.dat
 
