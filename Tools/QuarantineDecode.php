@@ -4,10 +4,8 @@
  *
  * Sometimes it's necessary to decode a quarantined file, in order to analyse
  * it more closely, such as if you suspect it's a false positive, want to share
- * it with vendors or wish to analyse it for the purposes of refining
+ * it with vendors, or wish to analyse it for the purposes of refining
  * signatures. This function will allow you to do so.
- *
- * @package Maikuolan/phpMussel-extras
  */
 
 /**
@@ -29,28 +27,33 @@
  * @return string The decoded QFU file contents.
  */
 function phpMussel_Decode_Quarantined_File($filename, $key, $head = false) {
-    if (!$dat = @file_get_contents($filename)) {
+    if (!$dat = file_get_contents($filename)) {
         return '';
     }
-    $o = '';
+    $HeadData = substr($dat, 170, 32);
+    $FileSize = unpack('l*', substr($HeadData, 27, 4))[1];
     if ($head) {
-        $dat = substr($dat, 170, 32);
-        $o .= 'MD5: ' . @bin2hex(substr($dat, 11, 16)) . "\n";
-        $o .= 'Raw Filesize: ' . @unpack('l*', substr($dat, 27, 4))[1] . "\n";
-        return $o;
+        return 'MD5: ' . bin2hex(substr($HeadData, 11, 16)) . "\n" . 'Raw Filesize: ' . $FileSize . "\n";
     }
     if(!$c = strlen($dat = substr($dat, 202))) {
         return '';
     }
+    if ($key < 128) {
+        $key = hex2bin(hash('sha512', $key) . hash('whirlpool', $key));
+    }
+    $k = strlen($key);
     $o = '';
     $i = 0;
-    $key = @hex2bin(hash('sha512', $key) . hash('whirlpool', $key));
-    $k = strlen($key);
     while ($i < $c) {
         for ($j = 0; $j < $k; $j++, $i++) {
-            $o .= @$dat{$i} ^ $key{$j};
+            if (strlen($o) >= $FileSize) {
+                break 2;
+            }
+            $L = substr($dat, $i, 1);
+            $R = substr($key, $j, 1);
+            $o .= ($L === false ? "\x00" : $L) ^ ($R === false ? "\x00" : $R);
         }
     }
-    $o = @gzinflate($o);
+    $o = gzinflate($o);
     return $o;
 }
