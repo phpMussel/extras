@@ -2,7 +2,7 @@
 // https://yourUser:yourSecret@yoursite.net/path/to/file.php - use this URL for the webhook with basic auth
 
 if (!file_exists("phpMussel") && !is_dir("phpMussel")) {
-    exec("git clone https://github.com/Maikuolan/phpMussel.git");
+    exec("git clone https://github.com/phpMussel/phpMussel.git");
 }
 
 if ($_POST['payload']) {
@@ -11,7 +11,7 @@ if ($_POST['payload']) {
     // zip begin - added as reference, actually not used
     /*
     // config
-    $file_remote = "https://github.com/Maikuolan/phpMussel/archive/master.zip";
+    $file_remote = "https://github.com/phpMussel/phpMussel/archive/master.zip";
     $newfile = "phpmussel_src/master.zip";
     
     // step1: remove current src
