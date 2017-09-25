@@ -78,4 +78,34 @@ plugin-notifications:
    - 406d0af4e90e93cae0d3893314d5151c:792
    - 67c7c168127ac1386a6a8f914af2f877:3235
  Reannotate: plugins.dat
+plugin-resultAsJson:
+ Name: resultAsJson plugin.
+ Extended Description: Plugin for phpMussel to receive the detection data as JSON response.<br /><em>Info: <a href="https://github.com/mtrefzer/plugin-resultAsJson">mtrefzer/plugin-resultAsJson</a><br />Author: Michael Trefzer (mtrefzer)</em>
+ Version: 1.0.1
+ Minimum Required: 1.0.0-DEV
+ Minimum Required PHP: 5.4.0
+ Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
+ Uninstallable: true
+ Provisional: true
+ Files:
+  From:
+   - https://raw.githubusercontent.com/mtrefzer/plugin-resultAsJson/master/resultAsJson/plugin.php
+  To:
+   - plugins/resultAsJson/plugin.php
+ Reannotate: plugins.dat
+plugin-log2mysql:
+ Name: log2mysql plugin.
+ Extended Description: Plugin for phpMussel to log to a MySQL database.<br /><em>Info: <a href="https://github.com/mtrefzer/plugin-log2mysql">mtrefzer/plugin-log2mysql</a><br />Author: Michael Trefzer (mtrefzer)</em>
+ Version: 1.0.0
+ Minimum Required: 1.0.0-DEV
+ Minimum Required PHP: 5.4.0
+ Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
+ Uninstallable: true
+ Provisional: true
+ Files:
+  From:
+   - https://raw.githubusercontent.com/mtrefzer/plugin-log2mysql/master/log2mysql/plugin.php
+  To:
+   - plugins/log2mysql/plugin.php
+ Reannotate: plugins.dat
 
