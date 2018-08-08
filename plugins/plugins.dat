@@ -131,9 +131,10 @@ Chart.js:
 PHPMailer:
  Name: PHPMailer
  Extended Description:
-  en: Required for using any functionality that involves sending email.<br /><a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a> is available via the <a href="https://github.com/PHPMailer/PHPMailer/blob/master/LICENSE">GNU Lesser General Public License</a>.
+  en: Required for using any functionality that involves sending email.<br /><a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a> is available via the <a href="https://github.com/PHPMailer/PHPMailer/blob/master/LICENSE">LGPLv2.1</a> license.
  Version: 6.0.5
  Minimum Required: 1.5.0
+ Minimum Required PHP: 5.5.0
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
  Provisional: true
