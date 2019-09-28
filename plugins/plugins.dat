@@ -124,8 +124,6 @@ plugin-log2mysql:
  Reannotate: plugins.dat
 Chart.js:
  Name: Chart.js
- Extended Description:
-  en: Enables the front-end to generate pie charts.<br /><a href="https://github.com/chartjs/Chart.js">Chart.js</a> made available under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.
  Version: 2.8.0
  Minimum Required: 1.2.0-DEV
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
@@ -144,9 +142,7 @@ Chart.js:
  Reannotate: plugins.dat
 PHPMailer:
  Name: PHPMailer
- Extended Description:
-  en: Required for using any functionality that involves sending email.<br /><a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a> is available via the <a href="https://github.com/PHPMailer/PHPMailer/blob/master/LICENSE">LGPLv2.1</a> license.
- Version: 6.0.7
+ Version: 6.1.1
  Minimum Required: 1.5.0
  Minimum Required PHP: 5.5.0
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
@@ -154,11 +150,11 @@ PHPMailer:
  Provisional: true
  Files:
   From:
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/0c41a36d4508d470e376498c1c0c527aa36a2d59/src/Exception.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/0c41a36d4508d470e376498c1c0c527aa36a2d59/src/OAuth.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/0c41a36d4508d470e376498c1c0c527aa36a2d59/src/PHPMailer.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/0c41a36d4508d470e376498c1c0c527aa36a2d59/src/POP3.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/0c41a36d4508d470e376498c1c0c527aa36a2d59/src/SMTP.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/26bd96350b0b2fcbf0ef4e6f0f9cf3528302a9d8/src/Exception.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/26bd96350b0b2fcbf0ef4e6f0f9cf3528302a9d8/src/OAuth.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/26bd96350b0b2fcbf0ef4e6f0f9cf3528302a9d8/src/PHPMailer.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/26bd96350b0b2fcbf0ef4e6f0f9cf3528302a9d8/src/POP3.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/26bd96350b0b2fcbf0ef4e6f0f9cf3528302a9d8/src/SMTP.php
   To:
    - classes/PHPMailer/Exception.php
    - classes/PHPMailer/OAuth.php
@@ -166,10 +162,10 @@ PHPMailer:
    - classes/PHPMailer/POP3.php
    - classes/PHPMailer/SMTP.php
   Checksum:
-   - 36eec35d96ce8611bb4078d57b880dab3b3edb8eda15e93afefdd337304c219b:1214
+   - 07d400cf4967a0779579e5887aaddfa7ea084aab57ee7fdf95ce01cd67807cb7:1213
    - 69902c3c27d4a53b49e7ef1bd4f41a8da8ee413cd5e2527f6c5454aa546e40a9:3744
-   - 736271b600e14147a480659cac07faba4ac6a5de64405e16d95972ec0f005bb4:155283
-   - 6235ec55dcdff97bde374713d79612dff06340d85518c9f5d2a5c607af7395c3:11031
-   - 01e6000911230283f19d4b0fb2dd4055c19dab07d73dcb2afd47969802e0ec3c:42841
+   - 015367e6925d244ee5f0d9deaf55f3b4dfb9b39889c2e24c9ffa3f2f001d255b:161002
+   - fd449f68b33fc446057ad65150328b6b7389dad9b3d05d51f0e936c42adeb723:11019
+   - c3d4861912fa71416f8a1d84038d9f36104a6cefd68c83daeeed73f4a48bbfc2:43726
  Reannotate: plugins.dat
 
