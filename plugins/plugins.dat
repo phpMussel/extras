@@ -142,7 +142,7 @@ Chart.js:
  Reannotate: plugins.dat
 PHPMailer:
  Name: PHPMailer
- Version: 6.1.7
+ Version: 6.1.8
  Minimum Required: 1.5.0
  Minimum Required PHP: 5.5.0
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
@@ -150,11 +150,11 @@ PHPMailer:
  Provisional: true
  Files:
   From:
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/2c2370ba3df7034f9eb7b8f387c97b52b2ba5ad0/src/Exception.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/2c2370ba3df7034f9eb7b8f387c97b52b2ba5ad0/src/OAuth.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/2c2370ba3df7034f9eb7b8f387c97b52b2ba5ad0/src/PHPMailer.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/2c2370ba3df7034f9eb7b8f387c97b52b2ba5ad0/src/POP3.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/2c2370ba3df7034f9eb7b8f387c97b52b2ba5ad0/src/SMTP.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/917ab212fa00dc6eacbb26e8bc387ebe40993bc1/src/Exception.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/917ab212fa00dc6eacbb26e8bc387ebe40993bc1/src/OAuth.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/917ab212fa00dc6eacbb26e8bc387ebe40993bc1/src/PHPMailer.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/917ab212fa00dc6eacbb26e8bc387ebe40993bc1/src/POP3.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/917ab212fa00dc6eacbb26e8bc387ebe40993bc1/src/SMTP.php
   To:
    - classes/PHPMailer/Exception.php
    - classes/PHPMailer/OAuth.php
@@ -162,10 +162,10 @@ PHPMailer:
    - classes/PHPMailer/POP3.php
    - classes/PHPMailer/SMTP.php
   Checksum:
-   - 07d400cf4967a0779579e5887aaddfa7ea084aab57ee7fdf95ce01cd67807cb7:1213
-   - 1b16bd75677da1e3c7fc0a65708c9c9effb62732778d3638e23402cd84245994:3744
-   - 77168ccdf811817a811a2d70db3e427f1b254c7e84ffd3439bff339887efb026:166100
-   - 4ee790ebb1363107e3535181d8b2f64fa52a92b4b28b76cdeb093cb0c3cfde10:11058
-   - a5ae392da1e9809bc07c359b230b12b0bf8589428a505233613e6fd1cf933c03:45965
+   - e32b89d05494a1d278f24bfa9a3430ff89479a4bb38a91eeaa45fcc747f369ce:1213
+   - bfa1471fb75e054197779e7d4376d37a2adeefc3d3ebcdff524a3043a12ad76a:3744
+   - f25b47c7dd6b0c281bbb7402d2b19ed978e7356b95c038c3078d4f96fa8295a8:166830
+   - 854bc1c6c521af947abbcbd737569ac5542916980efb20159122dfec6a9f952d:11058
+   - d1491fe18333dd0dd92bb2aba119217208f46ee2ba8b77921d3f30332ce84672:46067
  Reannotate: plugins.dat
 
