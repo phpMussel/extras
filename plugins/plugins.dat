@@ -124,20 +124,20 @@ plugin-log2mysql:
  Reannotate: plugins.dat
 Chart.js:
  Name: Chart.js
- Version: 2.8.0
+ Version: 2.9.3
  Minimum Required: 1.2.0-DEV
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
  Provisional: true
  Files:
   From:
-   - https://github.com/chartjs/Chart.js/releases/download/v2.8.0/Chart.min.js
+   - https://github.com/chartjs/Chart.js/releases/download/v2.9.3/Chart.min.js
    - https://raw.githubusercontent.com/Maikuolan/Chart.js-Common-Module/master/_chartjs.html
   To:
    - fe_assets/Chart.min.js
    - fe_assets/_chartjs.html
   Checksum:
-   - 52ff41341b9cbc23e2a4a436352f706292668bc0d33847d303f9c7d9aa0900bc:156721
+   - 478a6a70e615f25b7bb27c4c40efc749b5421513cc76b84014c1febebf608982:172812
    - 47dee555745921badf2c055c6acbf585d7900bcbbddcb261bb6bae92793fd5e4:1086
  Reannotate: plugins.dat
 PHPMailer:
