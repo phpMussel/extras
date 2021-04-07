@@ -2,8 +2,10 @@
 plugin-legacy:
  Name: Legacy plugin for phpMussel.
  Extended Description: Provides backwards-compatibility for v0 users using <code>phpMusselR()</code> and <code>phpMussel()</code>, by redeclaring these deprecated functions as wrappers for their newer, closure counterparts. Non-v0 users don't need this plugin and shouldn't use it.
- Minimum Required: 1.0.0-DEV
- Minimum Required PHP: 5.4.0
+ Minimum Required: 1.0.0
+ Dependencies:
+  PHP: >=5.4
+  phpMussel Core: ^1
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
  Provisional: true
@@ -20,7 +22,9 @@ plugin-notifications:
  Extended Description: Receive email notifications from phpMussel whenever a file upload is blocked (requires PHP "mail" function to be correctly configured).
  Version: 3.0.0
  Minimum Required: 1.12.0
- Minimum Required PHP: 5.4.0
+ Dependencies:
+  PHP: >=5.4
+  phpMussel Core: ^1.12|^2
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
  Provisional: true
@@ -96,8 +100,10 @@ plugin-resultAsJson:
  Name: resultAsJson plugin.
  Extended Description: Plugin for phpMussel to receive the detection data as JSON response.<br /><em>Info: <a href="https://github.com/mtrefzer/plugin-resultAsJson">mtrefzer/plugin-resultAsJson</a><br />Author: Michael Trefzer (mtrefzer)</em>
  Version: 1.0.1
- Minimum Required: 1.0.0-DEV
- Minimum Required PHP: 5.4.0
+ Minimum Required: 1.0.0
+ Dependencies:
+  PHP: >=5.4
+  phpMussel Core: ^1|^2
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
  Provisional: true
@@ -111,8 +117,10 @@ plugin-log2mysql:
  Name: log2mysql plugin.
  Extended Description: Plugin for phpMussel to log to a MySQL database.<br /><em>Info: <a href="https://github.com/mtrefzer/plugin-log2mysql">mtrefzer/plugin-log2mysql</a><br />Author: Michael Trefzer (mtrefzer)</em>
  Version: 1.0.0
- Minimum Required: 1.0.0-DEV
- Minimum Required PHP: 5.4.0
+ Minimum Required: 1.0.0
+ Dependencies:
+  PHP: >=5.4
+  phpMussel Core: ^1|^2
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
  Provisional: true
@@ -125,7 +133,10 @@ plugin-log2mysql:
 Chart.js:
  Name: Chart.js
  Version: 2.9.3
- Minimum Required: 1.2.0-DEV
+ Minimum Required: 1.2.0
+ Dependencies:
+  PHP: >=5.4
+  phpMussel Core: ^1.2|^2
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
  Provisional: true
@@ -144,7 +155,12 @@ PHPMailer:
  Name: PHPMailer
  Version: 6.3.0
  Minimum Required: 1.5.0
- Minimum Required PHP: 5.5.0
+ Dependencies:
+  PHP: >=5.5
+  phpMussel Core: ^1.5|^2
+  ctype: "*"
+  filter: "*"
+  hash: "*"
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
  Provisional: true
