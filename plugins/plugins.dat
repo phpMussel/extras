@@ -135,7 +135,6 @@ Chart.js:
  Version: 2.9.3
  Minimum Required: 1.2.0
  Dependencies:
-  PHP: >=5.4
   phpMussel Core: ^1.2|^2
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
