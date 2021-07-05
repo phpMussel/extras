@@ -12,6 +12,7 @@
 *.jpg binary
 *.png binary
 *.svg binary
+*.yml eol=lf
 
 # Refer to:
 # https://github.com/github/linguist
