@@ -147,7 +147,7 @@ Chart.js:
  Reannotate: plugins.dat
 PHPMailer:
  Name: PHPMailer
- Version: 6.5.3
+ Version: 6.5.4
  Dependencies:
   PHP: >=5.5
   phpMussel Core: ^1.5|^2
@@ -159,11 +159,11 @@ PHPMailer:
  Provisional: true
  Files:
   From:
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/baeb7cde6b60b1286912690ab0693c7789a31e71/src/Exception.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/baeb7cde6b60b1286912690ab0693c7789a31e71/src/OAuth.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/baeb7cde6b60b1286912690ab0693c7789a31e71/src/PHPMailer.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/baeb7cde6b60b1286912690ab0693c7789a31e71/src/POP3.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/baeb7cde6b60b1286912690ab0693c7789a31e71/src/SMTP.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/Exception.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/OAuth.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/PHPMailer.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/POP3.php
+   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/SMTP.php
   To:
    - classes/PHPMailer/Exception.php
    - classes/PHPMailer/OAuth.php
@@ -173,8 +173,8 @@ PHPMailer:
   Checksum:
    - 655e82ae2e40561a4c125115ffd49fb172a5221fa224bcdb10d41bf72eae9a87:1240
    - d1456eb234737d0e0aa7c7e816e0b8b01f6aca147f29739864bb553b840f4fce:3744
-   - 53546b4c8dcc37a6f34b3282599a2f814ceb541d6b42402bac1b27b5cb0ca35e:175949
-   - 9c29a2deeb778429a504c219c2e14ab8bd81717129735f2db8134b5f016d761e:12112
-   - 9ed23783a02a46a4fe6394b42c4987e0327b78f1b61773eef0ef986f4f84d1ab:47253
+   - e362bedb5c3bda7889e815c97cec95444a15f8707b1ec520c4ac8ed13b0cb513:176499
+   - c62d83f5effe50154732d80db9cd00999c32cec4cf2e933f0495a271a89b9197:12112
+   - c655c7717ad8da8e4c2dee386745ede32cee02198c2a42a5c936eb9e77c044b9:47305
  Reannotate: plugins.dat
 
