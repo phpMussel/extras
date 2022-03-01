@@ -1,21 +1,4 @@
 ---
-plugin-legacy:
- Name: Legacy plugin for phpMussel.
- Extended Description: Provides backwards-compatibility for v0 users using <code>phpMusselR()</code> and <code>phpMussel()</code>, by redeclaring these deprecated functions as wrappers for their newer, closure counterparts. Non-v0 users don't need this plugin and shouldn't use it.
- Dependencies:
-  PHP: >=5.4
-  phpMussel Core: ^1
- Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
- Uninstallable: true
- Provisional: true
- Files:
-  From:
-   - https://raw.githubusercontent.com/phpMussel/plugin-legacy/master/legacy/plugin.php
-  To:
-   - plugins/legacy/plugin.php
-  Checksum:
-   - 2d033ab028589c90057846b706ef54a8:2320
- Reannotate: plugins.dat
 plugin-notifications:
  Name: phpMussel notifications.
  Extended Description: Receive email notifications from phpMussel whenever a file upload is blocked (requires PHP "mail" function to be correctly configured).
@@ -93,7 +76,7 @@ plugin-notifications:
    - c19b7bcace831ec95edbd7fbea1deaced9d728ddf7d7e4d90c22510f549c2a89:592
    - 170ead4e1be52f0a96de20f3dd63a08b134cb08bca5309cd378775a1641b8a8e:593
    - 4039329d3b899fc1b6f2de87b7a52968440d0e9b994654f0a47b91f12101d17c:2683
- Reannotate: plugins.dat
+ Reannotate: "plugins.dat"
 plugin-resultAsJson:
  Name: resultAsJson plugin.
  Extended Description: Plugin for phpMussel to receive the detection data as JSON response.<br /><em>Info: <a href="https://github.com/mtrefzer/plugin-resultAsJson">mtrefzer/plugin-resultAsJson</a><br />Author: Michael Trefzer (mtrefzer)</em>
@@ -109,7 +92,7 @@ plugin-resultAsJson:
    - https://raw.githubusercontent.com/mtrefzer/plugin-resultAsJson/master/resultAsJson/plugin.php
   To:
    - plugins/resultAsJson/plugin.php
- Reannotate: plugins.dat
+ Reannotate: "plugins.dat"
 plugin-log2mysql:
  Name: log2mysql plugin.
  Extended Description: Plugin for phpMussel to log to a MySQL database.<br /><em>Info: <a href="https://github.com/mtrefzer/plugin-log2mysql">mtrefzer/plugin-log2mysql</a><br />Author: Michael Trefzer (mtrefzer)</em>
@@ -125,56 +108,55 @@ plugin-log2mysql:
    - https://raw.githubusercontent.com/mtrefzer/plugin-log2mysql/master/log2mysql/plugin.php
   To:
    - plugins/log2mysql/plugin.php
- Reannotate: plugins.dat
+ Reannotate: "plugins.dat"
 Chart.js:
- Name: Chart.js
- Version: 3.7.0
+ Name: "Chart.js"
+ Version: "3.7.1"
  Dependencies:
-  phpMussel Core: ^1.15.0-DEV|^2.4.0-DEV
- Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
+  phpMussel Core: "^1.15.0-DEV|^2.4.0-DEV"
+ Remote: "https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat"
  Uninstallable: true
  Provisional: true
  Files:
   From:
-   - https://raw.githubusercontent.com/Maikuolan/Chart.js-Common-Module/master/chart.min.js
-   - https://raw.githubusercontent.com/Maikuolan/Chart.js-Common-Module/master/_chartjs.html
+   - "https://raw.githubusercontent.com/Maikuolan/Chart.js-Common-Module/master/chart.min.js"
+   - "https://raw.githubusercontent.com/Maikuolan/Chart.js-Common-Module/master/_chartjs.html"
   To:
-   - fe_assets/chart.min.js
-   - fe_assets/_chartjs.html
+   - "fe_assets/chart.min.js"
+   - "fe_assets/_chartjs.html"
   Checksum:
-   - 636e8032f6887eb675110538f697fa1f8433553ace23c9bdc1060a91fb41b78b:194890
-   - 615790402dd1f3b88e2dcc5c12e3bbbe59de032cae3b2a9678961b68d351b65e:893
- Reannotate: plugins.dat
+   - "12b674f4a9199f38e9a9c6a77b8482cb21ec2805ccbc80fdff1c1b97f02ad697:195090"
+   - "615790402dd1f3b88e2dcc5c12e3bbbe59de032cae3b2a9678961b68d351b65e:893"
+ Reannotate: "plugins.dat"
 PHPMailer:
- Name: PHPMailer
- Version: 6.5.4
+ Name: "PHPMailer"
+ Version: "6.6.0"
  Dependencies:
-  PHP: >=5.5
-  phpMussel Core: ^1.5|^2
+  PHP: ">=5.5"
+  phpMussel Core: "^1.5|^2"
   ctype: "*"
   filter: "*"
   hash: "*"
- Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
+ Remote: "https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat"
  Uninstallable: true
  Provisional: true
  Files:
   From:
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/Exception.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/OAuth.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/PHPMailer.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/POP3.php
-   - https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.5.4/src/SMTP.php
+   - "https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.6.0/src/Exception.php"
+   - "https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.6.0/src/OAuth.php"
+   - "https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.6.0/src/PHPMailer.php"
+   - "https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.6.0/src/POP3.php"
+   - "https://raw.githubusercontent.com/PHPMailer/PHPMailer/v6.6.0/src/SMTP.php"
   To:
-   - classes/PHPMailer/Exception.php
-   - classes/PHPMailer/OAuth.php
-   - classes/PHPMailer/PHPMailer.php
-   - classes/PHPMailer/POP3.php
-   - classes/PHPMailer/SMTP.php
+   - "classes/PHPMailer/Exception.php"
+   - "classes/PHPMailer/OAuth.php"
+   - "classes/PHPMailer/PHPMailer.php"
+   - "classes/PHPMailer/POP3.php"
+   - "classes/PHPMailer/SMTP.php"
   Checksum:
-   - 655e82ae2e40561a4c125115ffd49fb172a5221fa224bcdb10d41bf72eae9a87:1240
-   - d1456eb234737d0e0aa7c7e816e0b8b01f6aca147f29739864bb553b840f4fce:3744
-   - e362bedb5c3bda7889e815c97cec95444a15f8707b1ec520c4ac8ed13b0cb513:176499
-   - c62d83f5effe50154732d80db9cd00999c32cec4cf2e933f0495a271a89b9197:12112
-   - c655c7717ad8da8e4c2dee386745ede32cee02198c2a42a5c936eb9e77c044b9:47305
- Reannotate: plugins.dat
-
+   - "655e82ae2e40561a4c125115ffd49fb172a5221fa224bcdb10d41bf72eae9a87:1240"
+   - "3b272d5f1fd9e185ad8daab260ad0b548a679e351701b6b78f80a6e523f1f961:3774"
+   - "af9a69684decbb422f200cc291af39df6eae303d34941737bafba0533d592f41:177425"
+   - "3e762d316dcca19da00da32ac128ff9aa5adfda2d6aaa831945af4191a4b20a1:12112"
+   - "8ed1b3a4fa558db14a5ddc3629d3ab2a0afa8a67a5f90dce545eb0cfdd3681eb:47327"
+ Reannotate: "plugins.dat"
