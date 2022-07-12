@@ -4,7 +4,7 @@ plugin-notifications:
  Extended Description: Receive email notifications from phpMussel whenever a file upload is blocked (requires PHP "mail" function to be correctly configured).
  Version: 3.0.0
  Dependencies:
-  PHP: >=5.4
+  PHP: "^5.4|^7|^8"
   phpMussel Core: ^1.12|^2
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
@@ -82,7 +82,7 @@ plugin-resultAsJson:
  Extended Description: Plugin for phpMussel to receive the detection data as JSON response.<br /><em>Info: <a href="https://github.com/mtrefzer/plugin-resultAsJson">mtrefzer/plugin-resultAsJson</a><br />Author: Michael Trefzer (mtrefzer)</em>
  Version: 1.0.1
  Dependencies:
-  PHP: >=5.4
+  PHP: "^5.4|^7|^8"
   phpMussel Core: ^1|^2
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
@@ -98,7 +98,7 @@ plugin-log2mysql:
  Extended Description: Plugin for phpMussel to log to a MySQL database.<br /><em>Info: <a href="https://github.com/mtrefzer/plugin-log2mysql">mtrefzer/plugin-log2mysql</a><br />Author: Michael Trefzer (mtrefzer)</em>
  Version: 1.0.0
  Dependencies:
-  PHP: >=5.4
+  PHP: "^5.4|^7|^8"
   phpMussel Core: ^1|^2
  Remote: https://raw.githubusercontent.com/phpMussel/extras/master/plugins/plugins.dat
  Uninstallable: true
